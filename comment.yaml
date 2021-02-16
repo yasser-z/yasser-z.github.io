@@ -1,0 +1,12 @@
+# Change it to your Disqus shortname before using
+disqusShortname: ahmad-yasser-gp
+
+params:
+    comments:
+        enabled: true
+        provider: disqus
+        utterances:
+            repo:
+            issueTerm: pathname
+            label:
+            theme: preferred-color-scheme
