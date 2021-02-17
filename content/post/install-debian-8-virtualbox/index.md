@@ -7,12 +7,12 @@ description: Install Debian 8 di VirtualBox
 hidden: false
 image: 
 math:
-slug: "install-debian-8-virtualbox"
+slug: install-debian-8-virtualbox
 tags:
-  - ASJ
-  - deb8
-  - vbox
-title: "Menginstall Debian 8 di Virtualbox"
+  - administrasi sistem jaringan
+  - debian 8
+  - virtualbox
+title: Menginstall Debian 8 di Virtualbox
 ---
 
 {{< youtube id="1ed75leg4Gc" autoplay="false" title="Versi Video" >}}

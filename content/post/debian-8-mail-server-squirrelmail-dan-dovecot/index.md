@@ -7,12 +7,12 @@ description: Konfigurasi Mail Server di Debian 8 dengan menggunakan SquirrelMail
 hidden: false
 image: 
 math:
-slug: "debian-8-mail-server-squirrelmail-dan-dovecot"
+slug: debian-8-mail-server-squirrelmail-dan-dovecot
 tags:
-  - ASJ
-  - deb8
-  - vbox
-title: "Menginstall Mail Server Squirrelmail Dan Dovecot di VirtualBox"
+  - administrasi sistem jaringan
+  - debian 8
+  - virtualbox
+title: Menginstall Mail Server Squirrelmail Dan Dovecot di VirtualBox
 ---
 
 {{< youtube id="rTHNtSHwUxg" autoplay="false" title="Versi Video" >}}

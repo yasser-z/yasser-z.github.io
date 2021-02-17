@@ -7,10 +7,10 @@ description: Diagram VoIP serta Proses kerja dalam komponen diagram VoIP
 hidden: false
 image: sip-trunking-VoIP-phone-system-diagram.jpg
 math:
-slug: "memahami-diagram-rangkaian-operasi-komunikasi-VoIP"
+slug: memahami-diagram-rangkaian-operasi-komunikasi-VoIP
 tags:
-  - TLJ
-title: "Memahami Diagram Rangkaian Operasi Komunikasi VoIP"
+  - teknologi layanan jaringan
+title: Memahami Diagram Rangkaian Operasi Komunikasi VoIP
 ---
 
 - [A. Voice Over Internet Protocol (VoIP)](#a-voice-over-internet-protocol-voip)

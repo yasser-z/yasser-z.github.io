@@ -7,8 +7,8 @@ description:
 hidden: false
 image: 
 math:
-slug: "{{ .Name }}"
+slug: {{ .Name }}
 tags:
   - 
-title: "{{ replace .Name "-" " " | title }}"
+title: {{ replace .Name "-" " " | title }}
 ---
