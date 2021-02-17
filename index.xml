@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ahmad Yasser GP</title><link>https://yasser-z.github.io/</link><description>Recent content on Ahmad Yasser GP</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Thu, 11 Feb 2021 23:05:29 +0800</lastBuildDate><atom:link href="https://yasser-z.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Menginstall Debian 8 di Virtualbox</title><link>https://yasser-z.github.io/p/install-debian-8-virtualbox/</link><pubDate>Thu, 11 Feb 2021 23:05:29 +0800</pubDate><guid>https://yasser-z.github.io/p/install-debian-8-virtualbox/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ahmad Yasser GP</title><link>https://yasser-z.github.io/</link><description>Recent content on Ahmad Yasser GP</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Wed, 17 Feb 2021 18:37:57 +0800</lastBuildDate><atom:link href="https://yasser-z.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Menghapus History Run</title><link>https://yasser-z.github.io/p/hapus-history-run/</link><pubDate>Wed, 17 Feb 2021 18:37:57 +0800</pubDate><guid>https://yasser-z.github.io/p/hapus-history-run/</guid><description>&lt;img src="https://yasser-z.github.io/p/hapus-history-run/thumbnail.jpg" alt="Featured image of post Menghapus History Run" />&lt;ul>
+&lt;li>&lt;a class="link" href="#1-buka-run" >1. Buka Run&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="#2-masukkan-command" >2. Masukkan Command&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="#3-cara-yang-lebih-mudah" >3. Cara yang lebih mudah&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="#thumbnail-image-source" >Thumbnail image source&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h4 id="1-buka-run">1. Buka Run&lt;/h4>
+&lt;p>Bisa klik &lt;code>Windows + R&lt;/code> atau klik kanan pada logo Windows lalu pilih Run.&lt;/p>
+&lt;h4 id="2-masukkan-command">2. Masukkan Command&lt;/h4>
+&lt;p>Commandnya:&lt;/p>
+&lt;pre>&lt;code>reg delete HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU /va
+&lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 193; flex-basis: 464px">
+&lt;a href="https://yasser-z.github.io/p/hapus-history-run/image001.jpg" data-size="399x206">&lt;img src="https://yasser-z.github.io/p/hapus-history-run/image001.jpg"
+srcset="https://yasser-z.github.io/p/hapus-history-run/image001_hu3ce7ec837bdc0bc6a6fd3fc85da13166_35931_480x0_resize_q75_box.jpg 480w, https://yasser-z.github.io/p/hapus-history-run/image001_hu3ce7ec837bdc0bc6a6fd3fc85da13166_35931_1024x0_resize_q75_box.jpg 1024w"
+width="399"
+height="206"
+loading="lazy"
+alt="Pastekan pada kolom yang berada di Run lalu klik OK">
+&lt;/a>
+&lt;figcaption>Pastekan pada kolom yang berada di Run lalu klik OK&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 216; flex-basis: 519px">
+&lt;a href="https://yasser-z.github.io/p/hapus-history-run/image002.jpg" data-size="979x452">&lt;img src="https://yasser-z.github.io/p/hapus-history-run/image002.jpg"
+srcset="https://yasser-z.github.io/p/hapus-history-run/image002_hue322439d982ac6d8648074a4970f0e7e_33105_480x0_resize_q75_box.jpg 480w, https://yasser-z.github.io/p/hapus-history-run/image002_hue322439d982ac6d8648074a4970f0e7e_33105_1024x0_resize_q75_box.jpg 1024w"
+width="979"
+height="452"
+loading="lazy"
+alt="Setelah itu ketik yes lalu klik Enter">
+&lt;/a>
+&lt;figcaption>Setelah itu ketik yes lalu klik Enter&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h4 id="3-cara-yang-lebih-mudah">3. Cara yang lebih mudah&lt;/h4>
+&lt;p>Caranya cukup download script &lt;a class="link" href="https://drive.google.com/file/d/1fwVSikJJk3MxHdGB6khvdbABhW7Hyy_a/view?usp=sharing" target="_blank" rel="noopener"
+>ini&lt;/a> lalu jalankan saja script-nya jika ingin menghapus history Run.&lt;/p>
+&lt;h4 id="thumbnail-image-sourcehttpswwwzerochannet2535972">&lt;a class="link" href="https://www.zerochan.net/2535972" target="_blank" rel="noopener"
+>Thumbnail image source&lt;/a>&lt;/h4></description></item><item><title>Menginstall Debian 8 di Virtualbox</title><link>https://yasser-z.github.io/p/install-debian-8-virtualbox/</link><pubDate>Thu, 11 Feb 2021 23:05:29 +0800</pubDate><guid>https://yasser-z.github.io/p/install-debian-8-virtualbox/</guid><description>&lt;img src="https://yasser-z.github.io/p/install-debian-8-virtualbox/thumbnail.jpg" alt="Featured image of post Menginstall Debian 8 di Virtualbox" />
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe loading="lazy" src="https://www.youtube.com/embed/1ed75leg4Gc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
@@ -356,7 +391,9 @@ alt="34 D">
 &lt;li>Kalau ada kesalahan tolong beri tahu melalui komentar&lt;/li>
 &lt;li>Kalau kurang jelas atau kurang paham silahkan tanyakan melalui komentar&lt;/li>
 &lt;/ul>
-&lt;/blockquote></description></item><item><title>Menginstall Mail Server Squirrelmail Dan Dovecot di VirtualBox</title><link>https://yasser-z.github.io/p/debian-8-mail-server-squirrelmail-dan-dovecot/</link><pubDate>Thu, 11 Feb 2021 20:48:21 +0800</pubDate><guid>https://yasser-z.github.io/p/debian-8-mail-server-squirrelmail-dan-dovecot/</guid><description>
+&lt;/blockquote>
+&lt;h4 id="thumbnail-image-sourcehttpswwwzerochannet1854531">&lt;a class="link" href="https://www.zerochan.net/1854531" target="_blank" rel="noopener"
+>Thumbnail image source&lt;/a>&lt;/h4></description></item><item><title>Menginstall Mail Server Squirrelmail Dan Dovecot di VirtualBox</title><link>https://yasser-z.github.io/p/debian-8-mail-server-squirrelmail-dan-dovecot/</link><pubDate>Thu, 11 Feb 2021 20:48:21 +0800</pubDate><guid>https://yasser-z.github.io/p/debian-8-mail-server-squirrelmail-dan-dovecot/</guid><description>&lt;img src="https://yasser-z.github.io/p/debian-8-mail-server-squirrelmail-dan-dovecot/thumbnail.jpg" alt="Featured image of post Menginstall Mail Server Squirrelmail Dan Dovecot di VirtualBox" />
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe loading="lazy" src="https://www.youtube.com/embed/rTHNtSHwUxg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
@@ -671,7 +708,9 @@ alt="7 Jika mendapat mail maka konfigurasi sudah benar">
 &lt;li>Kalau ada kesalahan tolong beri tahu melalui komentar&lt;/li>
 &lt;li>Kalau kurang jelas atau kurang paham silahkan tanyakan melalui komentar&lt;/li>
 &lt;/ul>
-&lt;/blockquote></description></item><item><title>Memahami Diagram Rangkaian Operasi Komunikasi VoIP</title><link>https://yasser-z.github.io/p/memahami-diagram-rangkaian-operasi-komunikasi-voip/</link><pubDate>Fri, 05 Feb 2021 15:24:52 +0800</pubDate><guid>https://yasser-z.github.io/p/memahami-diagram-rangkaian-operasi-komunikasi-voip/</guid><description>&lt;img src="https://yasser-z.github.io/p/memahami-diagram-rangkaian-operasi-komunikasi-voip/sip-trunking-voip-phone-system-diagram.jpg" alt="Featured image of post Memahami Diagram Rangkaian Operasi Komunikasi VoIP" />&lt;ul>
+&lt;/blockquote>
+&lt;h4 id="thumbnail-image-sourcehttpswwwzerochannet2897977">&lt;a class="link" href="https://www.zerochan.net/2897977" target="_blank" rel="noopener"
+>Thumbnail image source&lt;/a>&lt;/h4></description></item><item><title>Memahami Diagram Rangkaian Operasi Komunikasi VoIP</title><link>https://yasser-z.github.io/p/memahami-diagram-rangkaian-operasi-komunikasi-voip/</link><pubDate>Fri, 05 Feb 2021 15:24:52 +0800</pubDate><guid>https://yasser-z.github.io/p/memahami-diagram-rangkaian-operasi-komunikasi-voip/</guid><description>&lt;img src="https://yasser-z.github.io/p/memahami-diagram-rangkaian-operasi-komunikasi-voip/sip-trunking-voip-phone-system-diagram.jpg" alt="Featured image of post Memahami Diagram Rangkaian Operasi Komunikasi VoIP" />&lt;ul>
 &lt;li>&lt;a class="link" href="#a-voice-over-internet-protocol-voip" >A. Voice Over Internet Protocol (VoIP)&lt;/a>
 &lt;ul>
 &lt;li>&lt;a class="link" href="#kelebihan-voip" >Kelebihan VoIP&lt;/a>&lt;/li>
@@ -815,7 +854,7 @@ alt="Signalling Message">
 >Music and IT Make it Perfect - Memahami diagram rangkaian operasi komunikasi VoIP&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://rozkysoftwarekandangan.blogspot.com/2021/02/proses-kerja-dalam-komponen-diagram-voip.html" target="_blank" rel="noopener"
 >Music and IT Make it Perfect - Proses kerja dalam komponen diagram VoIP&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Hello World!</title><link>https://yasser-z.github.io/p/hello-world/</link><pubDate>Fri, 05 Feb 2021 14:08:48 +0800</pubDate><guid>https://yasser-z.github.io/p/hello-world/</guid><description>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ullamcorper posuere tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur iaculis, dui vitae vehicula consequat, ex enim bibendum justo, quis faucibus nisi diam id ligula. Aliquam in venenatis erat. Aenean ut erat in ipsum laoreet tristique eget vitae quam. Praesent vel lectus iaculis, lobortis lectus laoreet, ultricies lacus. Curabitur non ultricies leo, quis finibus dolor. Vestibulum pretium, erat ut maximus facilisis, erat libero bibendum libero, sed tincidunt ante quam eget risus.&lt;/p>
+&lt;/ul></description></item><item><title>Hello World!</title><link>https://yasser-z.github.io/p/hello-world/</link><pubDate>Fri, 05 Feb 2021 14:08:48 +0800</pubDate><guid>https://yasser-z.github.io/p/hello-world/</guid><description>&lt;img src="https://yasser-z.github.io/p/hello-world/thumbnail.jpg" alt="Featured image of post Hello World!" />&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ullamcorper posuere tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur iaculis, dui vitae vehicula consequat, ex enim bibendum justo, quis faucibus nisi diam id ligula. Aliquam in venenatis erat. Aenean ut erat in ipsum laoreet tristique eget vitae quam. Praesent vel lectus iaculis, lobortis lectus laoreet, ultricies lacus. Curabitur non ultricies leo, quis finibus dolor. Vestibulum pretium, erat ut maximus facilisis, erat libero bibendum libero, sed tincidunt ante quam eget risus.&lt;/p>
 &lt;p>Aenean quis turpis at nisi egestas finibus. Morbi ultrices, libero eu accumsan laoreet, neque ex posuere mi, nec venenatis risus nibh nec sem. Phasellus egestas vitae nibh eget ullamcorper. Ut nec semper quam, eget luctus neque. Sed vehicula, dui id hendrerit imperdiet, arcu diam pellentesque ligula, et imperdiet lectus erat ac elit. Phasellus sodales ante ac egestas eleifend. Nunc vitae rhoncus ligula. Fusce tincidunt iaculis nibh id luctus. Integer a nunc dictum, suscipit tortor quis, convallis neque. Aliquam malesuada placerat auctor. Sed tincidunt orci in felis pellentesque pharetra. Praesent ut mi eros. Nullam viverra orci id magna suscipit sodales vel sed tellus. Phasellus semper et libero nec lacinia.&lt;/p>
 &lt;p>In a justo lacinia, imperdiet ligula nec, porta risus. Quisque pharetra felis ut nisi sollicitudin, id aliquet turpis feugiat. Integer eu purus vel purus sagittis mattis. Aenean tempor mattis lacus aliquet hendrerit. Nulla laoreet tortor vitae lorem scelerisque, ac tincidunt quam scelerisque. Duis et quam ante. Morbi viverra ipsum ante, eu suscipit felis mollis eget. Pellentesque tortor dolor, rhoncus in rutrum eu, viverra ac est. Nullam placerat augue et orci facilisis, sed mattis felis placerat. Nam luctus tellus velit, sed varius metus vehicula quis. Aenean quis lectus mauris. Maecenas faucibus ex vestibulum, feugiat erat vitae, efficitur sapien.&lt;/p>
 &lt;p>Phasellus tempor nibh ut ante ullamcorper rhoncus. Suspendisse luctus dignissim sagittis. Cras eget lobortis nisl, eu egestas sapien. Praesent velit dui, tempus sed aliquet et, sollicitudin a ante. Phasellus sit amet risus tincidunt dui egestas sagittis a sed nulla. Phasellus bibendum vehicula massa, et tincidunt metus pharetra quis. Ut ultrices hendrerit elit, a rutrum nulla elementum ac. Donec euismod ipsum non est porttitor lacinia eu at libero. Sed et eros vitae mauris luctus mollis at nec dui.&lt;/p>

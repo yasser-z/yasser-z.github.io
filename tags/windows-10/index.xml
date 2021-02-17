@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows 10 on Ahmad Yasser GP</title><link>https://yasser-z.github.io/tags/windows-10/</link><description>Recent content in Windows 10 on Ahmad Yasser GP</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><atom:link href="https://yasser-z.github.io/tags/windows-10/index.xml" rel="self" type="application/rss+xml"/><item><title>Menghapus History Run</title><link>https://yasser-z.github.io/p/hapus-history-run/</link><pubDate>Wed, 17 Feb 2021 18:37:57 +0800</pubDate><guid>https://yasser-z.github.io/p/hapus-history-run/</guid><description>1. Buka Run 2. Masukkan Command 3. Cara yang lebih mudah Thumbnail image source 1. Buka Run Bisa klik Windows + R atau klik kanan pada logo Windows lalu pilih Run.
+2. Masukkan Command Commandnya:
+reg delete HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU /va
+Pastekan pada kolom yang berada di Run lalu klik OK
+Setelah itu ketik yes lalu klik Enter
+3. Cara yang lebih mudah Caranya cukup download script ini lalu jalankan saja script-nya jika ingin menghapus history Run.</description></item></channel></rss>

@@ -5,6 +5,8 @@ Mendownload ISO DVD Debian 8 (Download disini) Mematikan koneksi internet D = Bi
 3 Ubah memori menjadi 2048 MB lalu klik Next
 4 D
 5 D</description></item><item><title>Menginstall Mail Server Squirrelmail Dan Dovecot di VirtualBox</title><link>https://yasser-z.github.io/p/debian-8-mail-server-squirrelmail-dan-dovecot/</link><pubDate>Thu, 11 Feb 2021 20:48:21 +0800</pubDate><guid>https://yasser-z.github.io/p/debian-8-mail-server-squirrelmail-dan-dovecot/</guid><description>Sebelum eksekusi, pastikan kalian sudah:
-Menginstall Debian 8 di VirtualBox Menclone Debian 8] Memiliki koneksi internet Mengkonfigurasi network pada Debian 8 (Bridged) Login sebagai root 1. Edit /etc/apt/sources.list nano /etc/apt/sources.list Ubah seperti dibawah
+Menginstall Debian 8 di VirtualBox Menclone Debian 8] Memiliki koneksi internet Mengkonfigurasi network pada Debian 8 (Bridged) Login sebagai root 1. Edit /etc/apt/sources.list nano /etc/apt/sources.list
+Ubah seperti dibawah
 Before After
-2. Update repository apt update 3. Install software yang diperlukan apt install postfix squirrelmail dovecot-{imap,pop3}d Tekan enter saat ada konfirmasi Do you want to continue?</description></item></channel></rss>
+2. Update repository apt update 3. Install software yang diperlukan apt install postfix squirrelmail dovecot-{imap,pop3}d
+Tekan enter saat ada konfirmasi Do you want to continue?</description></item></channel></rss>
