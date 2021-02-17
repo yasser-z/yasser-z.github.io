@@ -5,7 +5,7 @@ comment:
 date: {{ .Date }}
 description: 
 hidden: false
-image: 
+image: thumbnail.jpg
 math:
 slug: {{ .Name }}
 tags:
