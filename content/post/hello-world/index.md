@@ -5,7 +5,7 @@ comment:
 date: 2021-02-05T14:08:48+08:00
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc feugiat porttitor.
 hidden: false
-image: 
+image: thumbnail.jpg
 math:
 slug: hello-world
 tags:

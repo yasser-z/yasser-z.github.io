@@ -5,7 +5,7 @@ comment:
 date: 2021-02-11T20:48:21+08:00
 description: Konfigurasi Mail Server di Debian 8 dengan menggunakan SquirrelMail dan Dovecot
 hidden: false
-image: 
+image: thumbnail.jpg
 math:
 slug: debian-8-mail-server-squirrelmail-dan-dovecot
 tags:
@@ -131,3 +131,5 @@ Jika tidak mendapat mail... Silahkan mengulang dari awal.
 
 > - Kalau ada kesalahan tolong beri tahu melalui komentar
 > - Kalau kurang jelas atau kurang paham silahkan tanyakan melalui komentar
+
+#### [Thumbnail image source](https://www.zerochan.net/2897977)

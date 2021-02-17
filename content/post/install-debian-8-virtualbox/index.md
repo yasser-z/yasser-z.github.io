@@ -5,7 +5,7 @@ comment:
 date: 2021-02-11T23:05:29+08:00
 description: Install Debian 8 di VirtualBox
 hidden: false
-image: 
+image: thumbnail.jpg
 math:
 slug: install-debian-8-virtualbox
 tags:
@@ -93,3 +93,5 @@ D = Biarkan default, langsung klik enter saja.
 
 > - Kalau ada kesalahan tolong beri tahu melalui komentar
 > - Kalau kurang jelas atau kurang paham silahkan tanyakan melalui komentar
+
+#### [Thumbnail image source](https://www.zerochan.net/1854531)
