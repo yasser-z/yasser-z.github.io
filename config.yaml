@@ -77,7 +77,7 @@ params:
         cover:
             enabled: true
         content:
-            enabled: true
+            enabled: false
 
 menu:
     main:
