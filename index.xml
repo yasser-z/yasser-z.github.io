@@ -1,4 +1,457 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ahmad Yasser GP</title><link>https://yasser-z.github.io/</link><description>Recent content on Ahmad Yasser GP</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Wed, 17 Feb 2021 18:37:57 +0800</lastBuildDate><atom:link href="https://yasser-z.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Menghapus History Run</title><link>https://yasser-z.github.io/p/hapus-history-run/</link><pubDate>Wed, 17 Feb 2021 18:37:57 +0800</pubDate><guid>https://yasser-z.github.io/p/hapus-history-run/</guid><description>&lt;img src="https://yasser-z.github.io/p/hapus-history-run/thumbnail.jpg" alt="Featured image of post Menghapus History Run" />&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ahmad Yasser GP</title><link>https://yasser-z.github.io/</link><description>Recent content on Ahmad Yasser GP</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Thu, 18 Feb 2021 16:28:14 +0800</lastBuildDate><atom:link href="https://yasser-z.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Konfigurasi EIGRP di Cisco Packet Tracer</title><link>https://yasser-z.github.io/p/packet-tracer-eigrp/</link><pubDate>Thu, 18 Feb 2021 16:28:14 +0800</pubDate><guid>https://yasser-z.github.io/p/packet-tracer-eigrp/</guid><description>&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/thumbnail.jpg" alt="Featured image of post Konfigurasi EIGRP di Cisco Packet Tracer" />
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe loading="lazy" src="https://www.youtube.com/embed/-vnrnOuYroI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h4 id="1-masukkan-3-buah-router">1. Masukkan 3 buah router&lt;/h4>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image001.jpg" data-size="1368x768">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image001.jpg"
+width="1368"
+height="768"
+loading="lazy"
+alt="Router yang dipakai adalah jenis 1841">
+&lt;/a>
+&lt;figcaption>Router yang dipakai adalah jenis 1841&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h4 id="2-tambahkan-module-hwic-2t-pada-tiap-router">2. Tambahkan module HWIC-2T pada tiap router&lt;/h4>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image002.jpg" data-size="1368x768">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image002.jpg"
+width="1368"
+height="768"
+loading="lazy"
+alt="1 Klik dua kali pada router">
+&lt;/a>
+&lt;figcaption>1 Klik dua kali pada router&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image003.jpg" data-size="1368x768">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image003.jpg"
+width="1368"
+height="768"
+loading="lazy"
+alt="2 Klik &amp;lsquo;HWIC-2T&amp;rsquo; pada daftar module">
+&lt;/a>
+&lt;figcaption>2 Klik ‘HWIC-2T’ pada daftar module&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image004.jpg" data-size="1368x768">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image004.jpg"
+width="1368"
+height="768"
+loading="lazy"
+alt="3 Matikan router">
+&lt;/a>
+&lt;figcaption>3 Matikan router&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image005.jpg" data-size="1368x768">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image005.jpg"
+width="1368"
+height="768"
+loading="lazy"
+alt="4 Klik tahan pada module yang ada dibawah">
+&lt;/a>
+&lt;figcaption>4 Klik tahan pada module yang ada dibawah&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image006.jpg" data-size="1368x768">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image006.jpg"
+width="1368"
+height="768"
+loading="lazy"
+alt="5 Geser ke kotak kosong yang berada di kanan">
+&lt;/a>
+&lt;figcaption>5 Geser ke kotak kosong yang berada di kanan&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image007.jpg" data-size="1368x768">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image007.jpg"
+width="1368"
+height="768"
+loading="lazy"
+alt="6 Nyalakan router">
+&lt;/a>
+&lt;figcaption>6 Nyalakan router&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Lakukan hal yang sama pada 2 router lainnya.&lt;/p>
+&lt;h4 id="3-hubungkan-semua-router">3. Hubungkan semua router&lt;/h4>
+&lt;p>Kabel yang digunakan adalah kabel &amp;lsquo;Serial DCE&amp;rsquo;, urutan menghubungkannya:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>No&lt;/th>
+&lt;th>Port yang dihubungkan&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Serial 0/0/0 Router0 dengan Serial 0/0/0 Router1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>Serial 0/0/1 Router1 dengan Serial 0/0/0 Router2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>Serial 0/0/1 Router2 dengan Serial 0/0/1 Router0&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image008.jpg" data-size="1368x768">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image008.jpg"
+width="1368"
+height="768"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;h4 id="4-masukkan-1-laptop-disamping-tiap-router">4. Masukkan 1 laptop disamping tiap router&lt;/h4>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image009.jpg" data-size="1368x768">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image009.jpg"
+width="1368"
+height="768"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;h4 id="5-hubungkan-laptop-dengan-router">5. Hubungkan laptop dengan router&lt;/h4>
+&lt;p>Kabel yang digunakan adalah kabel &amp;lsquo;Copper Cross-Over&amp;rsquo;, port yang dihubungkan adalah &amp;lsquo;FastEthernet 0/0&amp;rsquo; pada router dengan &amp;lsquo;FastEthernet0&amp;rsquo; pada laptop.&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image010.jpg" data-size="1368x768">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image010.jpg"
+width="1368"
+height="768"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;h4 id="6-beri-keterangan-network-pada-tiap-kabel">6. Beri keterangan Network pada tiap kabel&lt;/h4>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image011.jpg" data-size="1368x768">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image011.jpg"
+width="1368"
+height="768"
+loading="lazy"
+alt="Klik pada icon nota">
+&lt;/a>
+&lt;figcaption>Klik pada icon nota&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image012.jpg" data-size="1368x768">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image012.jpg"
+width="1368"
+height="768"
+loading="lazy"
+alt="Beri keterangan seperti ini">
+&lt;/a>
+&lt;figcaption>Beri keterangan seperti ini&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h4 id="7-konfigurasi-router0">7. Konfigurasi Router0&lt;/h4>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image013.jpg" data-size="1368x768">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image013.jpg"
+width="1368"
+height="768"
+loading="lazy"
+alt="1 Klik dua kali pada Router0">
+&lt;/a>
+&lt;figcaption>1 Klik dua kali pada Router0&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image014.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image014.jpg"
+width="557"
+height="543"
+loading="lazy"
+alt="2 Klik tab config lalu ubah Hostname menjadi Router0">
+&lt;/a>
+&lt;figcaption>2 Klik tab config lalu ubah Hostname menjadi Router0&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image015.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image015.jpg"
+width="557"
+height="543"
+loading="lazy"
+alt="3 Klik pada FastEthernet0/0 lalu ubah seperti diatas">
+&lt;/a>
+&lt;figcaption>3 Klik pada FastEthernet0/0 lalu ubah seperti diatas&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image016.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image016.jpg"
+width="557"
+height="543"
+loading="lazy"
+alt="4 Klik pada Serial0/0/0 lalu ubah seperti diatas">
+&lt;/a>
+&lt;figcaption>4 Klik pada Serial0/0/0 lalu ubah seperti diatas&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image017.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image017.jpg"
+width="557"
+height="543"
+loading="lazy"
+alt="5 Klik pada Serial0/0/1 lalu ubah seperti diatas">
+&lt;/a>
+&lt;figcaption>5 Klik pada Serial0/0/1 lalu ubah seperti diatas&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image018.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image018.jpg"
+width="557"
+height="543"
+loading="lazy"
+alt="6 Klik tab CLI lalu ketik &amp;lsquo;exit&amp;rsquo;">
+&lt;/a>
+&lt;figcaption>6 Klik tab CLI lalu ketik ‘exit’&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image019.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image019.jpg"
+width="557"
+height="543"
+loading="lazy"
+alt="7 Ketik &amp;lsquo;ip dhcp exclude 192.168.1.1&amp;rsquo;">
+&lt;/a>
+&lt;figcaption>7 Ketik ‘ip dhcp exclude 192.168.1.1’&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image020.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image020.jpg"
+width="557"
+height="543"
+loading="lazy"
+alt="8 Ketik &amp;lsquo;ip dhcp pool local&amp;rsquo;">
+&lt;/a>
+&lt;figcaption>8 Ketik ‘ip dhcp pool local’&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image021.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image021.jpg"
+width="557"
+height="543"
+loading="lazy"
+alt="9 Ketik &amp;lsquo;net 192.168.1.0 255.255.255.252&amp;rsquo;">
+&lt;/a>
+&lt;figcaption>9 Ketik ‘net 192.168.1.0 255.255.255.252’&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image022.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image022.jpg"
+width="557"
+height="543"
+loading="lazy"
+alt="10 Ketik &amp;lsquo;def 192.168.1.1">
+&lt;/a>
+&lt;figcaption>10 Ketik ‘def 192.168.1.1&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h4 id="8-ujicoba-konfigurasi-router0">8. Ujicoba konfigurasi Router0&lt;/h4>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image023.jpg" data-size="1368x768">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image023.jpg"
+width="1368"
+height="768"
+loading="lazy"
+alt="1 Klik dua kali pada Laptop yang berada didekat Router0">
+&lt;/a>
+&lt;figcaption>1 Klik dua kali pada Laptop yang berada didekat Router0&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image024.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image024.jpg"
+width="557"
+height="543"
+loading="lazy"
+alt="2 Klik pada tab Desktop &amp;gt; IP Configuration lalu klik &amp;lsquo;DHCP&amp;rsquo; lalu tunggu sebentar, jika hasilnya seperti diatas maka konfigurasinya sudah benar">
+&lt;/a>
+&lt;figcaption>2 Klik pada tab Desktop &amp;gt; IP Configuration lalu klik ‘DHCP’ lalu tunggu sebentar, jika hasilnya seperti diatas maka konfigurasinya sudah benar&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image025.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image025.jpg"
+width="557"
+height="543"
+loading="lazy"
+alt="3 Klik pada tab Desktop &amp;gt; Command Prompt lalu ketik &amp;lsquo;ping 192.168.1.1&amp;rsquo;, jika hasilnya seperti diatas maka laptop sudah dapat terhubung dengan Router0">
+&lt;/a>
+&lt;figcaption>3 Klik pada tab Desktop &amp;gt; Command Prompt lalu ketik ‘ping 192.168.1.1’, jika hasilnya seperti diatas maka laptop sudah dapat terhubung dengan Router0&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h4 id="9-konfigurasi-router-lainnya">9. Konfigurasi router lainnya&lt;/h4>
+&lt;p>Konfigurasi router lainnya kurang lebih sama saja caranya, hanya berbeda pada data yang diubah. Berikut adalah perbandingannya:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Jenis&lt;/th>
+&lt;th>Router0&lt;/th>
+&lt;th>Router1&lt;/th>
+&lt;th>Router2&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a class="link" href="image014.jpg" >Hostname&lt;/a>&lt;/td>
+&lt;td>Router0&lt;/td>
+&lt;td>Router1&lt;/td>
+&lt;td>Router2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a class="link" href="image015.jpg" >FastEthernet0/0 - IPv4 Address&lt;/a>&lt;/td>
+&lt;td>192.168.1.1&lt;/td>
+&lt;td>192.168.2.1&lt;/td>
+&lt;td>192.168.3.1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a class="link" href="image016.jpg" >Serial 0/0/0 - IPv4 Address&lt;/a>&lt;/td>
+&lt;td>1.1.1.1&lt;/td>
+&lt;td>1.1.1.2&lt;/td>
+&lt;td>2.2.2.2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a class="link" href="image017.jpg" >Serial 0/0/1 - IPv4 Address&lt;/a>&lt;/td>
+&lt;td>3.3.3.1&lt;/td>
+&lt;td>2.2.2.1&lt;/td>
+&lt;td>3.3.3.2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a class="link" href="image019.jpg" >&amp;lsquo;ip dhcp exclude 192.168.x.1&amp;rsquo;&lt;/a>&lt;/td>
+&lt;td>192.168.1.1&lt;/td>
+&lt;td>192.168.2.1&lt;/td>
+&lt;td>192.168.3.1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a class="link" href="image021.jpg" >&amp;lsquo;net 192.168.x.0 255.255.255.252&amp;rsquo;&lt;/a>&lt;/td>
+&lt;td>192.168.1.0&lt;/td>
+&lt;td>192.168.2.0&lt;/td>
+&lt;td>192.168.3.0&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a class="link" href="image022.jpg" >&amp;lsquo;def 192.168.x.1&amp;rsquo;&lt;/a>&lt;/td>
+&lt;td>192.168.1.1&lt;/td>
+&lt;td>192.168.2.1&lt;/td>
+&lt;td>192.168.3.1&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Untuk ujicoba-nya sama saja dengan ujicoba konfigurasi Router0, kalian pasti bisa berimprovisasi.&lt;/p>
+&lt;h4 id="10-ujicoba-hubungan-router">10. Ujicoba hubungan router&lt;/h4>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image026.jpg" data-size="1368x768">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image026.jpg"
+width="1368"
+height="768"
+loading="lazy"
+alt="1 Klik dua kali pada Router2">
+&lt;/a>
+&lt;figcaption>1 Klik dua kali pada Router2&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image027.jpg" data-size="1368x768">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image027.jpg"
+width="1368"
+height="768"
+loading="lazy"
+alt="2 Ketik &amp;lsquo;exit&amp;rsquo;">
+&lt;/a>
+&lt;figcaption>2 Ketik ‘exit’&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image028.jpg" data-size="1368x768">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image028.jpg"
+width="1368"
+height="768"
+loading="lazy"
+alt="3 Ketik &amp;lsquo;ping 1.1.1.1&amp;rsquo; untuk mengecek hubungan dengan Router0">
+&lt;/a>
+&lt;figcaption>3 Ketik ‘ping 1.1.1.1’ untuk mengecek hubungan dengan Router0&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image029.jpg" data-size="1368x768">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image029.jpg"
+width="1368"
+height="768"
+loading="lazy"
+alt="4 Ketik &amp;lsquo;ping 2.2.2.1&amp;rsquo; untuk mengecek hubungan dengan Router1">
+&lt;/a>
+&lt;figcaption>4 Ketik ‘ping 2.2.2.1’ untuk mengecek hubungan dengan Router1&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Jika hasilnya seperti pada gambar maka router sudah terhubung dengan baik.&lt;/p>
+&lt;h4 id="11-konfigurasi-routing-eigrp-pada-tiap-router">11. Konfigurasi routing EIGRP pada tiap router&lt;/h4>
+&lt;p>Untuk menkonfigurasi routing EIGRP, klik dua kali pada router yang ingin dikonfigurasi lalu pada tab CLI&amp;hellip;&lt;/p>
+&lt;p>Sebagai contoh saya mengkonfigurasi Router0.&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image030.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image030.jpg"
+width="557"
+height="543"
+loading="lazy"
+alt="1 Ketik &amp;lsquo;route eigrp 100&amp;rsquo;">
+&lt;/a>
+&lt;figcaption>1 Ketik ‘route eigrp 100’&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image031.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image031.jpg"
+width="557"
+height="543"
+loading="lazy"
+alt="2 Ketik &amp;lsquo;no auto-sum&amp;rsquo;">
+&lt;/a>
+&lt;figcaption>2 Ketik ‘no auto-sum’&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image032.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image032.jpg"
+width="557"
+height="543"
+loading="lazy"
+alt="3 Ketik &amp;lsquo;net {network}&amp;#39;">
+&lt;/a>
+&lt;figcaption>3 Ketik ‘net {network}'&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;blockquote>
+&lt;p>Network yang dimaksud pada tahap ke-3 adalah network yang terhubung dengan router.&lt;/p>
+&lt;ul>
+&lt;li>Router0: 192.168.1.0, 1.1.1.0, 3.3.3.0&lt;/li>
+&lt;li>Router1: 192.168.2.0, 1.1.1.0, 2.2.2.0&lt;/li>
+&lt;li>Router2: 192.168.3.0, 2.2.2.0, 3.3.3.0&lt;/li>
+&lt;/ul>
+&lt;p>Pada contoh diatas saya mengetik-nya 3 kali, &lt;code>net 192.168.1.0&lt;/code> lalu &lt;code>net 1.1.1.0&lt;/code> lalu yang terakhir &lt;code>net 3.3.3.0&lt;/code>, lakukan hal yang sama pada 2 router lainnya.&lt;/p>
+&lt;p>Untuk Router2 karena tadi dipakai untuk mengetes hubungan router, ketik &lt;code>conf t&lt;/code> terlebih dahulu untuk masuk ke mode konfigurasi sebelum mengkonfigurasi routing EIGRP.&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="12-cek-daftar-route">12. Cek daftar route&lt;/h4>
+&lt;p>Klik dua kali pada router mana saja lalu ketik &lt;code>exit&lt;/code> jika masih dalam mode konfigurasi, setelah itu.&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image033.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image033.jpg"
+width="557"
+height="543"
+loading="lazy"
+alt="Ketik &amp;lsquo;show ip route&amp;rsquo;">
+&lt;/a>
+&lt;figcaption>Ketik ‘show ip route’&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Jika hasilnya seperti diatas maka konfigurasi routing EIGRP sudah benar.&lt;/p>
+&lt;h4 id="13-ujicoba-konfigurasi-eigrp">13. Ujicoba konfigurasi EIGRP&lt;/h4>
+&lt;p>Klik dua kali pada laptop yang berada di dekat Router1 lalu.&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 109; flex-basis: 262px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image034.jpg" data-size="557x510">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image034.jpg"
+width="557"
+height="510"
+loading="lazy"
+alt="1 Klik pada tab Desktop &amp;gt; Command Prompt">
+&lt;/a>
+&lt;figcaption>1 Klik pada tab Desktop &amp;gt; Command Prompt&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image035.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image035.jpg"
+width="557"
+height="543"
+loading="lazy"
+alt="2 Ketik &amp;lsquo;ping 192.168.1.2&amp;rsquo; untuk mengecek hubungan dengan laptop yang berada di dekat Router0">
+&lt;/a>
+&lt;figcaption>2 Ketik ‘ping 192.168.1.2’ untuk mengecek hubungan dengan laptop yang berada di dekat Router0&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image036.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image036.jpg"
+width="557"
+height="543"
+loading="lazy"
+alt="3 Ketik &amp;lsquo;tracert 192.168.1.2&amp;rsquo; untuk mengecek rute yang digunakan">
+&lt;/a>
+&lt;figcaption>3 Ketik ‘tracert 192.168.1.2’ untuk mengecek rute yang digunakan&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image037.jpg" data-size="1368x768">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image037.jpg"
+width="1368"
+height="768"
+loading="lazy"
+alt="4 Hapus kabel yang menghubungkan Router0 dengan Router1">
+&lt;/a>
+&lt;figcaption>4 Hapus kabel yang menghubungkan Router0 dengan Router1&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image038.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image038.jpg"
+width="557"
+height="543"
+loading="lazy"
+alt="5 Ketik &amp;lsquo;tracert 192.168.1.2&amp;rsquo; lagi untuk mengecek rute yang digunakan">
+&lt;/a>
+&lt;figcaption>5 Ketik ‘tracert 192.168.1.2’ lagi untuk mengecek rute yang digunakan&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h4 id="thumbnail-image-sourcehttpsstaticzerochannettokumukyuufull1533595jpg">&lt;a class="link" href="https://static.zerochan.net/Tokumu.Kyuu.full.1533595.jpg" target="_blank" rel="noopener"
+>Thumbnail image source&lt;/a>&lt;/h4></description></item><item><title>Menghapus History Run</title><link>https://yasser-z.github.io/p/hapus-history-run/</link><pubDate>Wed, 17 Feb 2021 18:37:57 +0800</pubDate><guid>https://yasser-z.github.io/p/hapus-history-run/</guid><description>&lt;img src="https://yasser-z.github.io/p/hapus-history-run/thumbnail.jpg" alt="Featured image of post Menghapus History Run" />&lt;ul>
 &lt;li>&lt;a class="link" href="#1-buka-run" >1. Buka Run&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="#2-masukkan-command" >2. Masukkan Command&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="#3-cara-yang-lebih-mudah" >3. Cara yang lebih mudah&lt;/a>&lt;/li>

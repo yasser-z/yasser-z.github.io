@@ -1,1 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cisco Packet Tracer on Ahmad Yasser GP</title><link>https://yasser-z.github.io/tags/cisco-packet-tracer/</link><description>Recent content in Cisco Packet Tracer on Ahmad Yasser GP</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><atom:link href="https://yasser-z.github.io/tags/cisco-packet-tracer/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cisco Packet Tracer on Ahmad Yasser GP</title><link>https://yasser-z.github.io/tags/cisco-packet-tracer/</link><description>Recent content in Cisco Packet Tracer on Ahmad Yasser GP</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><atom:link href="https://yasser-z.github.io/tags/cisco-packet-tracer/index.xml" rel="self" type="application/rss+xml"/><item><title>Konfigurasi EIGRP di Cisco Packet Tracer</title><link>https://yasser-z.github.io/p/packet-tracer-eigrp/</link><pubDate>Thu, 18 Feb 2021 16:28:14 +0800</pubDate><guid>https://yasser-z.github.io/p/packet-tracer-eigrp/</guid><description>1. Masukkan 3 buah router Router yang dipakai adalah jenis 1841
+2. Tambahkan module HWIC-2T pada tiap router 1 Klik dua kali pada router
+2 Klik ‘HWIC-2T’ pada daftar module
+3 Matikan router
+4 Klik tahan pada module yang ada dibawah
+5 Geser ke kotak kosong yang berada di kanan
+6 Nyalakan router</description></item></channel></rss>
