@@ -41,7 +41,7 @@ Ubah seperti dibawah
 apt install postfix squirrelmail dovecot-{imap,pop3}d
 ```
 
-Tekan enter saat ada konfirmasi `Do you want to continue?  [Y/n]`. Jika disuruh masukkan DVD Debian 8, maka masukkan dengan cara klik kanan pada icon kaset yang berada dikanan bawah VirtualBox.
+Tekan enter saat ada konfirmasi `Do you want to continue? [Y/n]`. Jika disuruh masukkan DVD Debian 8, maka masukkan dengan cara klik kanan pada icon kaset yang berada dikanan bawah VirtualBox.
 
 ![Klik kanan pada ikon kaset](image003.jpg) ![Pilih DVD Debian 8](image004.jpg)
 
