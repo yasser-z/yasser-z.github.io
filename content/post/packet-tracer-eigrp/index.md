@@ -165,4 +165,4 @@ Klik dua kali pada laptop yang berada di dekat Router1 lalu.
 
 ![5 Ketik 'tracert 192.168.1.2' lagi untuk mengecek rute yang digunakan](image038.jpg)
 
-#### [Thumbnail image source](https://static.zerochan.net/Tokumu.Kyuu.full.1533595.jpg)
+#### [Thumbnail image source](https://www.zerochan.net/1533595)
