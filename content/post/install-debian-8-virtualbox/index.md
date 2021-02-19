@@ -3,7 +3,7 @@ categories:
   - tutorial
 comment:
 date: 2021-02-11T23:05:29+08:00
-description: Install Debian 8 di VirtualBox
+description: 
 hidden: false
 image: thumbnail.jpg
 math:

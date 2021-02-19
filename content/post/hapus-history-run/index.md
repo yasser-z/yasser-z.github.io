@@ -3,7 +3,7 @@ categories:
   - tutorial
 comment:
 date: 2021-02-17T18:37:57+08:00
-description: Hapus history Run di Windows 10
+description: 
 hidden: false
 image: thumbnail.jpg
 math:
