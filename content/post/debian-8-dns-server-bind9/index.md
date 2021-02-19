@@ -12,7 +12,7 @@ tags:
   - administrasi sistem jaringan
   - debian 8
   - virtualbox
-title: Debian 8 Dns Server Bind9
+title: Konfigurasi DNS Server Bind9 di VirtualBox
 ---
 
 {{< youtube id="ug-JMELn9IE" autoplay="false" title="Versi Video" >}}

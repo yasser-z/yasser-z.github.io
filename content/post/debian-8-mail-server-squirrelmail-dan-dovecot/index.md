@@ -12,7 +12,7 @@ tags:
   - administrasi sistem jaringan
   - debian 8
   - virtualbox
-title: Menginstall Mail Server Squirrelmail Dan Dovecot di VirtualBox
+title: Konfigurasi Mail Server Squirrelmail Dan Dovecot di VirtualBox
 ---
 
 {{< youtube id="rTHNtSHwUxg" autoplay="false" title="Versi Video" >}}
