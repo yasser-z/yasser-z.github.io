@@ -23,7 +23,7 @@ tags:
 title: Konfigurasi Routing EIGRP di Cisco Packet Tracer
 ---
 
-{{< youtube id="-vnrnOuYroI" autoplay="false" title="Versi Video" >}}
+{{< youtube id="-vnrnOuYroI" autoplay="false" >}}
 
 #### 1. Masukkan 3 buah router
 

@@ -32,7 +32,7 @@ tags:
 title: Konfigurasi DNS Server Bind9 Debian 8 VirtualBox
 ---
 
-{{< youtube id="vfAJNNv4aYU" autoplay="false" title="Versi Video" >}}
+{{< youtube id="vfAJNNv4aYU" autoplay="false" >}}
 
 > Sebelum eksekusi, pastikan kalian sudah:
 > - [x] [Menginstall Debian 8 di VirtualBox](/p/install-debian-8-virtualbox/)

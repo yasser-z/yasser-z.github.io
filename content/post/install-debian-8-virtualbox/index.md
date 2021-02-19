@@ -23,7 +23,7 @@ tags:
 title: Install Debian 8 di Virtualbox
 ---
 
-{{< youtube id="1ed75leg4Gc" autoplay="false" title="Versi Video" >}}
+{{< youtube id="1ed75leg4Gc" autoplay="false" >}}
 
 > Sebelum eksekusi, pastikan kalian sudah:
 > - [x] Mendownload ISO DVD Debian 8 ([Download disini](https://cdimage.debian.org/cdimage/archive/8.11.1/amd64/iso-dvd/debian-8.11.1-amd64-DVD-1.iso))

@@ -24,7 +24,7 @@ tags:
 title: Konfigurasi Mail Server Squirrelmail Dan Dovecot Debian 8 VirtualBox
 ---
 
-{{< youtube id="rTHNtSHwUxg" autoplay="false" title="Versi Video" >}}
+{{< youtube id="rTHNtSHwUxg" autoplay="false" >}}
 
 > Sebelum eksekusi, pastikan kalian sudah:
 > - [x] [Menginstall Debian 8 di VirtualBox](/p/install-debian-8-virtualbox/)
