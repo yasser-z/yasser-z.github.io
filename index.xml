@@ -1,4 +1,193 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ahmad Yasser GP</title><link>https://yasser-z.github.io/</link><description>Recent content on Ahmad Yasser GP</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Thu, 18 Feb 2021 16:28:14 +0800</lastBuildDate><atom:link href="https://yasser-z.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Konfigurasi EIGRP di Cisco Packet Tracer</title><link>https://yasser-z.github.io/p/packet-tracer-eigrp/</link><pubDate>Thu, 18 Feb 2021 16:28:14 +0800</pubDate><guid>https://yasser-z.github.io/p/packet-tracer-eigrp/</guid><description>&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/thumbnail.jpg" alt="Featured image of post Konfigurasi EIGRP di Cisco Packet Tracer" />
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ahmad Yasser GP</title><link>https://yasser-z.github.io/</link><description>Recent content on Ahmad Yasser GP</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Fri, 19 Feb 2021 09:41:53 +0800</lastBuildDate><atom:link href="https://yasser-z.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Debian 8 Dns Server Bind9</title><link>https://yasser-z.github.io/p/debian-8-dns-server-bind9/</link><pubDate>Fri, 19 Feb 2021 09:41:53 +0800</pubDate><guid>https://yasser-z.github.io/p/debian-8-dns-server-bind9/</guid><description>&lt;img src="https://yasser-z.github.io/p/debian-8-dns-server-bind9/thumbnail.jpg" alt="Featured image of post Debian 8 Dns Server Bind9" />
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe loading="lazy" src="https://www.youtube.com/embed/ug-JMELn9IE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;blockquote>
+&lt;p>Sebelum eksekusi, pastikan kalian sudah:&lt;/p>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> &lt;a class="link" href="https://yasser-z.github.io/p/install-debian-8-virtualbox/" >Menginstall Debian 8 di VirtualBox&lt;/a>&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Menclone Debian 8]&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Memiliki koneksi internet&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Mengkonfigurasi network pada Debian 8 (Bridged)&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Login sebagai root&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h4 id="1-update-repository-apt-update">1. Update repository &lt;code>apt update&lt;/code>&lt;/h4>
+&lt;h4 id="2-install-bind9-apt-install-bind9">2. Install Bind9 &lt;code>apt install bind9&lt;/code>&lt;/h4>
+&lt;p>Tekan enter saat ada konfirmasi &lt;code>Do you want to continue? [Y/n]&lt;/code>.&lt;/p>
+&lt;h4 id="3-pindah-ke-direktori-konfigurasi-bind9-cd-etcbind9">3. Pindah ke direktori konfigurasi Bind9 &lt;code>cd /etc/bind9&lt;/code>&lt;/h4>
+&lt;h4 id="4-cek-ip-ip-a-s-eth0">4. Cek IP &lt;code>ip a s eth0&lt;/code>&lt;/h4>
+&lt;p>&lt;figure style="flex-grow: 133; flex-basis: 319px">
+&lt;a href="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image001.jpg" data-size="798x600">&lt;img src="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image001.jpg"
+width="798"
+height="600"
+loading="lazy"
+alt="IP saya 192.168.42.205">
+&lt;/a>
+&lt;figcaption>IP saya 192.168.42.205&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h4 id="5-konfigurasi-bind9-namedconfdefault-zones">5. Konfigurasi Bind9 (&lt;code>named.conf.default-zones&lt;/code>)&lt;/h4>
+&lt;pre>&lt;code>nano named.conf.default-zones
+&lt;/code>&lt;/pre>&lt;p>Tambahkan konfigurasi ini dibagian paling bawah&lt;/p>
+&lt;pre>&lt;code>zone &amp;quot;yasser.local&amp;quot; {
+type master;
+file &amp;quot;/etc/bind/db.yasser.local&amp;quot;;
+};
+zone &amp;quot;42.168.192.in-addr.arpa&amp;quot; {
+type master;
+file &amp;quot;/etc/bind/db.192&amp;quot;;
+};
+&lt;/code>&lt;/pre>&lt;blockquote>
+&lt;ul>
+&lt;li>Selalu ubah &lt;code>yasser.local&lt;/code> menjadi nama domain yang ingin kalian gunakan&lt;/li>
+&lt;li>Ubah &lt;code>42.168.192&lt;/code> menjadi kebalikan dari IP kalian, IP saya &lt;code>192.168.42.205&lt;/code> maka disana dimasukkan &lt;code>42.168.192&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h4 id="6-konfigurasi-bind9-db">6. Konfigurasi Bind9 (db)&lt;/h4>
+&lt;p>Copy dulu db-nya.&lt;/p>
+&lt;pre>&lt;code>cp db.local db.yasser.local
+cp db.127 db.192
+&lt;/code>&lt;/pre>&lt;p>Setelah itu ubah domain-nya.&lt;/p>
+&lt;pre>&lt;code>sed -i 's/localhost/yasser.local/g' db.yasser.local
+sed -i 's/localhost/yasser.local/g' db.192
+&lt;/code>&lt;/pre>&lt;p>Lalu edit.&lt;/p>
+&lt;pre>&lt;code>nano db.yasser.local
+&lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 133; flex-basis: 319px">
+&lt;a href="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image002.jpg" data-size="798x600">&lt;img src="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image002.jpg"
+width="798"
+height="600"
+loading="lazy"
+alt="Before">
+&lt;/a>
+&lt;figcaption>Before&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 133; flex-basis: 319px">
+&lt;a href="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image003.jpg" data-size="798x600">&lt;img src="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image003.jpg"
+width="798"
+height="600"
+loading="lazy"
+alt="After">
+&lt;/a>
+&lt;figcaption>After&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Ubah &lt;code>192.168.42.205&lt;/code> menjadi IP kalian.&lt;/p>
+&lt;pre>&lt;code>nano db.192
+&lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 133; flex-basis: 319px">
+&lt;a href="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image004.jpg" data-size="798x600">&lt;img src="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image004.jpg"
+width="798"
+height="600"
+loading="lazy"
+alt="Before">
+&lt;/a>
+&lt;figcaption>Before&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 133; flex-basis: 319px">
+&lt;a href="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image005.jpg" data-size="798x600">&lt;img src="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image005.jpg"
+width="798"
+height="600"
+loading="lazy"
+alt="After">
+&lt;/a>
+&lt;figcaption>After&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h4 id="7-restart-layanan-bind9-etcinitdbind9-restart">7. Restart layanan Bind9 &lt;code>/etc/init.d/bind9 restart&lt;/code>&lt;/h4>
+&lt;h4 id="8-konfigurasi-dns-server-yang-digunakan">8. Konfigurasi DNS Server yang digunakan&lt;/h4>
+&lt;pre>&lt;code>nano /etc/resolve.conf
+&lt;/code>&lt;/pre>&lt;p>Lalu tambahkan IP kalian dibagian paling atas.&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 133; flex-basis: 319px">
+&lt;a href="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image006.jpg" data-size="798x600">&lt;img src="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image006.jpg"
+width="798"
+height="600"
+loading="lazy"
+alt="Before">
+&lt;/a>
+&lt;figcaption>Before&lt;/figcaption>
+&lt;/figure> &lt;figure style="flex-grow: 133; flex-basis: 319px">
+&lt;a href="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image007.jpg" data-size="798x600">&lt;img src="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image007.jpg"
+width="798"
+height="600"
+loading="lazy"
+alt="After">
+&lt;/a>
+&lt;figcaption>After&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h4 id="9-ujicoba-konfigurasi-bind9">9. Ujicoba konfigurasi Bind9&lt;/h4>
+&lt;p>Jalankan perintah dibawah, jika tidak error maka konfigurasi Bind9 sudah benar.&lt;/p>
+&lt;pre>&lt;code>dig yasser.local
+nslookup yasser.local
+ping yasser.local
+&lt;/code>&lt;/pre>&lt;p>&lt;figure style="flex-grow: 133; flex-basis: 319px">
+&lt;a href="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image008.jpg" data-size="798x600">&lt;img src="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image008.jpg"
+width="798"
+height="600"
+loading="lazy"
+alt="Contoh dig tidak error">
+&lt;/a>
+&lt;figcaption>Contoh dig tidak error&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 133; flex-basis: 319px">
+&lt;a href="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image009.jpg" data-size="798x600">&lt;img src="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image009.jpg"
+width="798"
+height="600"
+loading="lazy"
+alt="Contoh nslookup tidak error">
+&lt;/a>
+&lt;figcaption>Contoh nslookup tidak error&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 133; flex-basis: 319px">
+&lt;a href="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image010.jpg" data-size="798x600">&lt;img src="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image010.jpg"
+width="798"
+height="600"
+loading="lazy"
+alt="Contoh ping tidak error">
+&lt;/a>
+&lt;figcaption>Contoh ping tidak error&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Setelah itu ujicoba pada Windows 10. Pergi ke konfigurasi adapter lalu klik kanan pada network yang dibridge pada VirtualBox lalu klik Status.&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image011.jpg" data-size="1368x768">&lt;img src="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image011.jpg"
+width="1368"
+height="768"
+loading="lazy"
+alt="Klik Details untuk mengecek DNS Server yang sudah digunakan sebelumnya, liat &amp;lsquo;IPv4 DNS Server&amp;rsquo; setelah itu close">
+&lt;/a>
+&lt;figcaption>Klik Details untuk mengecek DNS Server yang sudah digunakan sebelumnya, liat ‘IPv4 DNS Server’ setelah itu close&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>DNS Server saya &lt;code>192.168.42.129&lt;/code>.&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image012.jpg" data-size="1368x768">&lt;img src="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image012.jpg"
+width="1368"
+height="768"
+loading="lazy"
+alt="Klik Properties lalu klik dua kali pada (TCP/IPv4)">
+&lt;/a>
+&lt;figcaption>Klik Properties lalu klik dua kali pada (TCP/IPv4)&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image013.jpg" data-size="1368x768">&lt;img src="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image013.jpg"
+width="1368"
+height="768"
+loading="lazy"
+alt="Klik pada Use the following DNS&amp;hellip; lalu isi IP Debian pada kolom yang berada diatas dan isi DNS Server yang tadi pada kolom yang dibawah">
+&lt;/a>
+&lt;figcaption>Klik pada Use the following DNS… lalu isi IP Debian pada kolom yang berada diatas dan isi DNS Server yang tadi pada kolom yang dibawah&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Setelah itu buka Run lalu isi dengan &lt;code>ping yasser.local -t&lt;/code>.&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
+&lt;a href="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image014.jpg" data-size="1368x768">&lt;img src="https://yasser-z.github.io/p/debian-8-dns-server-bind9/image014.jpg"
+width="1368"
+height="768"
+loading="lazy"
+alt="Jika hasilnya seperti diatas berarti DNS Server sudah bekerja dengan baik">
+&lt;/a>
+&lt;figcaption>Jika hasilnya seperti diatas berarti DNS Server sudah bekerja dengan baik&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>Kalau ada kesalahan tolong beri tahu melalui komentar&lt;/li>
+&lt;li>Kalau kurang jelas atau kurang paham silahkan tanyakan melalui komentar&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h4 id="thumbnail-image-sourcehttpswwwzerochannet1533595">&lt;a class="link" href="https://www.zerochan.net/1533595" target="_blank" rel="noopener"
+>Thumbnail image source&lt;/a>&lt;/h4></description></item><item><title>Konfigurasi EIGRP di Cisco Packet Tracer</title><link>https://yasser-z.github.io/p/packet-tracer-eigrp/</link><pubDate>Thu, 18 Feb 2021 16:28:14 +0800</pubDate><guid>https://yasser-z.github.io/p/packet-tracer-eigrp/</guid><description>&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/thumbnail.jpg" alt="Featured image of post Konfigurasi EIGRP di Cisco Packet Tracer" />
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe loading="lazy" src="https://www.youtube.com/embed/-vnrnOuYroI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
@@ -450,7 +639,7 @@ alt="5 Ketik &amp;lsquo;tracert 192.168.1.2&amp;rsquo; lagi untuk mengecek rute 
 &lt;/a>
 &lt;figcaption>5 Ketik ‘tracert 192.168.1.2’ lagi untuk mengecek rute yang digunakan&lt;/figcaption>
 &lt;/figure>&lt;/p>
-&lt;h4 id="thumbnail-image-sourcehttpsstaticzerochannettokumukyuufull1533595jpg">&lt;a class="link" href="https://static.zerochan.net/Tokumu.Kyuu.full.1533595.jpg" target="_blank" rel="noopener"
+&lt;h4 id="thumbnail-image-sourcehttpswwwzerochannet1533595">&lt;a class="link" href="https://www.zerochan.net/1533595" target="_blank" rel="noopener"
 >Thumbnail image source&lt;/a>&lt;/h4></description></item><item><title>Menghapus History Run</title><link>https://yasser-z.github.io/p/hapus-history-run/</link><pubDate>Wed, 17 Feb 2021 18:37:57 +0800</pubDate><guid>https://yasser-z.github.io/p/hapus-history-run/</guid><description>&lt;img src="https://yasser-z.github.io/p/hapus-history-run/thumbnail.jpg" alt="Featured image of post Menghapus History Run" />&lt;ul>
 &lt;li>&lt;a class="link" href="#1-buka-run" >1. Buka Run&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="#2-masukkan-command" >2. Masukkan Command&lt;/a>&lt;/li>
