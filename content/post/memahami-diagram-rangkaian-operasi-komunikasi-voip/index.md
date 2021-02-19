@@ -6,6 +6,8 @@ date: 2021-02-05T15:24:52+08:00
 description: Diagram VoIP serta Proses kerja dalam komponen diagram VoIP
 hidden: false
 image: sip-trunking-VoIP-phone-system-diagram.jpg
+keywords:
+  - Diagram Rangkaian Operasi Komunikasi VoIP
 math:
 slug: memahami-diagram-rangkaian-operasi-komunikasi-VoIP
 tags:

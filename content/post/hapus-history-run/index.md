@@ -6,11 +6,14 @@ date: 2021-02-17T18:37:57+08:00
 description: 
 hidden: false
 image: thumbnail.jpg
+keywords:
+  - Hapus History Run di Windows 10
+  - Cara Menghapus History Run di Windows 10
 math:
 slug: hapus-history-run
 tags:
   - windows 10
-title: Menghapus History Run
+title: Menghapus History Run di Windows 10
 ---
 
 - [1. Buka Run](#1-buka-run)

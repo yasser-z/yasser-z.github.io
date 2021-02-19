@@ -6,13 +6,30 @@ date: 2021-02-19T09:41:53+08:00
 description: 
 hidden: false
 image: thumbnail.jpg
+keywords:
+  - Konfigurasi DNS Server Bind9 Debian 8
+  - Konfigurasi DNS Server Bind9 Debian 8 VirtualBox
+  - Cara mengkonfigurasi DNS Server Bind9 Debian 8
+  - Cara mengkonfigurasi DNS Server Bind9 Debian 8 VirtualBox
+  - Instalasi DNS Server Bind9 Debian 8
+  - Instalasi DNS Server Bind9 Debian 8 VirtualBox
+  - Cara menginstall DNS Server Bind9 Debian 8
+  - Cara menginstall DNS Server di Debian 8 VirtualBox
+  - Konfigurasi DNS Server di Debian 8
+  - Konfigurasi DNS Server di Debian 8 VirtualBox
+  - Cara mengkonfigurasi DNS Server di Debian 8
+  - Cara mengkonfigurasi DNS Server di Debian 8 VirtualBox
+  - Instalasi DNS Server di Debian 8
+  - Instalasi DNS Server di Debian 8 VirtualBox
+  - Cara menginstall DNS Server di Debian 8
+  - Cara menginstall DNS Server di Debian 8 VirtualBox
 math:
 slug: debian-8-dns-server-bind9
 tags:
   - administrasi sistem jaringan
   - debian 8
   - virtualbox
-title: Konfigurasi DNS Server Bind9 di VirtualBox
+title: Konfigurasi DNS Server Bind9 Debian 8 VirtualBox
 ---
 
 {{< youtube id="vfAJNNv4aYU" autoplay="false" title="Versi Video" >}}

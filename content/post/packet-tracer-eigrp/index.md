@@ -7,12 +7,20 @@ date: 2021-02-18T16:28:14+08:00
 description: 
 hidden: false
 image: thumbnail.jpg
+keywords:
+  - Routing EIGRP
+  - Konfigurasi Routing EIGRP
+  - Konfigurasi Routing EIGRP di Cisco Packet Tracer
+  - Cara Konfigurasi Routing EIGRP
+  - Cara Konfigurasi Routing EIGRP di Cisco Packet Tracer
+  - Langkah-langkah Konfigurasi Routing EIGRP
+  - Langkah-langkah Konfigurasi Routing EIGRP di Cisco Packet Tracer
 math:
 slug: packet-tracer-eigrp
 tags:
   - administrasi infrastruktur jaringan
   - cisco packet tracer
-title: Konfigurasi EIGRP di Cisco Packet Tracer
+title: Konfigurasi Routing EIGRP di Cisco Packet Tracer
 ---
 
 {{< youtube id="-vnrnOuYroI" autoplay="false" title="Versi Video" >}}

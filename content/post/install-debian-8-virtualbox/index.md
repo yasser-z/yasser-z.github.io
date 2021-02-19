@@ -6,13 +6,21 @@ date: 2021-02-11T23:05:29+08:00
 description: 
 hidden: false
 image: thumbnail.jpg
+keywords:
+  - Debian 8
+  - Install Debian 8 di VirtualBox
+  - Install Debian 8 di VirtualBox Windows 10
+  - Instalasi Debian 8 di Virtualbox
+  - Instalasi Debian 8 di Virtualbox Windows 10
+  - Cara Menginstall Debian 8 di Virtualbox
+  - Cara Menginstall Debian 8 di Virtualbox Windows 10
 math:
 slug: install-debian-8-virtualbox
 tags:
   - administrasi sistem jaringan
   - debian 8
   - virtualbox
-title: Menginstall Debian 8 di Virtualbox
+title: Install Debian 8 di Virtualbox
 ---
 
 {{< youtube id="1ed75leg4Gc" autoplay="false" title="Versi Video" >}}
