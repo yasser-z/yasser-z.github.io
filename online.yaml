@@ -10,5 +10,3 @@ params:
             issueTerm: pathname
             label:
             theme: preferred-color-scheme
-
-googleAnalytics: UA-181210453-1
