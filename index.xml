@@ -1,4 +1,242 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ahmad Yasser GP</title><link>https://yasser-z.github.io/</link><description>Recent content on Ahmad Yasser GP</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Fri, 19 Feb 2021 09:41:53 +0800</lastBuildDate><atom:link href="https://yasser-z.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Konfigurasi DNS Server Bind9 Debian 8 VirtualBox</title><link>https://yasser-z.github.io/p/debian-8-dns-server-bind9/</link><pubDate>Fri, 19 Feb 2021 09:41:53 +0800</pubDate><guid>https://yasser-z.github.io/p/debian-8-dns-server-bind9/</guid><description>&lt;img src="https://yasser-z.github.io/p/debian-8-dns-server-bind9/thumbnail.jpg" alt="Featured image of post Konfigurasi DNS Server Bind9 Debian 8 VirtualBox" />
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ahmad Yasser GP</title><link>https://yasser-z.github.io/</link><description>Recent content on Ahmad Yasser GP</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Thu, 25 Feb 2021 15:11:57 +0800</lastBuildDate><atom:link href="https://yasser-z.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Konfigurasi Routing OSPF di Cisco Packet Tracer</title><link>https://yasser-z.github.io/p/packet-tracer-ospf/</link><pubDate>Thu, 25 Feb 2021 15:11:57 +0800</pubDate><guid>https://yasser-z.github.io/p/packet-tracer-ospf/</guid><description>&lt;img src="https://yasser-z.github.io/p/packet-tracer-ospf/thumbnail.jpg" alt="Featured image of post Konfigurasi Routing OSPF di Cisco Packet Tracer" />
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/lNu1zIXOJlU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h4 id="1-masukkan-3-buah-router">1. Masukkan 3 buah router&lt;/h4>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 428px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-ospf/image001.jpg" data-size="1368x766">&lt;img src="https://yasser-z.github.io/p/packet-tracer-ospf/image001.jpg"
+width="1368"
+height="766"
+loading="lazy"
+alt="Router yang dipakai adalah jenis 2911">
+&lt;/a>
+&lt;figcaption>Router yang dipakai adalah jenis 2911&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h4 id="2-masukkan-1-buah-pc-diatas-tiap-router">2. Masukkan 1 buah PC diatas tiap router&lt;/h4>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 428px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-ospf/image002.jpg" data-size="1368x766">&lt;img src="https://yasser-z.github.io/p/packet-tracer-ospf/image002.jpg"
+width="1368"
+height="766"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;h4 id="3-hubungkan-semua-router">3. Hubungkan semua router&lt;/h4>
+&lt;p>Kabel yang digunakan adalah kabel &amp;lsquo;Copper Cross-Over&amp;rsquo;, urutan menghubungkannya:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>No&lt;/th>
+&lt;th>Port yang dihubungkan&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>GigabitEthernet0/0 Router0 dengan GigabitEthernet0/0 Router1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>GigabitEthernet0/1 Router1 dengan GigabitEthernet0/0 Router2&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 428px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-ospf/image003.jpg" data-size="1368x766">&lt;img src="https://yasser-z.github.io/p/packet-tracer-ospf/image003.jpg"
+width="1368"
+height="766"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;h4 id="4-hubungkan-pc-dengan-router-yang-berada-dibawahnya">4. Hubungkan PC dengan router yang berada dibawahnya&lt;/h4>
+&lt;p>Kabel yang digunakan adalah kabel &amp;lsquo;Copper Straight-Through&amp;rsquo;, hubungkan FastEthernet0 pada PC dengan GigabitEthernet router yang paling atas.&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 428px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-ospf/image004.jpg" data-size="1368x766">&lt;img src="https://yasser-z.github.io/p/packet-tracer-ospf/image004.jpg"
+width="1368"
+height="766"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;h4 id="5-beri-keterangan-network">5. Beri keterangan Network&lt;/h4>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 428px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-ospf/image005.jpg" data-size="1368x766">&lt;img src="https://yasser-z.github.io/p/packet-tracer-ospf/image005.jpg"
+width="1368"
+height="766"
+loading="lazy"
+alt="Beri keterangan seperti diatas">
+&lt;/a>
+&lt;figcaption>Beri keterangan seperti diatas&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h4 id="6-konfigurasi-router0">6. Konfigurasi Router0&lt;/h4>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-ospf/image006.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-ospf/image006.jpg"
+width="557"
+height="543"
+loading="lazy"
+alt="1 Klik dua kali pada router lalu pada tab config ubah Hostname menjadi Router0">
+&lt;/a>
+&lt;figcaption>1 Klik dua kali pada router lalu pada tab config ubah Hostname menjadi Router0&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-ospf/image007.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-ospf/image007.jpg"
+width="557"
+height="543"
+loading="lazy"
+alt="2 Klik pada GigabitEthernet0/0 lalu ubah seperti diatas">
+&lt;/a>
+&lt;figcaption>2 Klik pada GigabitEthernet0/0 lalu ubah seperti diatas&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-ospf/image008.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-ospf/image008.jpg"
+width="557"
+height="543"
+loading="lazy"
+alt="3 Klik pada GigabitEthernet0/1 lalu ubah seperti diatas">
+&lt;/a>
+&lt;figcaption>3 Klik pada GigabitEthernet0/1 lalu ubah seperti diatas&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Selanjutnya ubah IP dari PC yang berada diatas Router0 (PC0).&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-ospf/image009.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-ospf/image009.jpg"
+width="557"
+height="543"
+loading="lazy"
+alt="Ubah seperti diatas">
+&lt;/a>
+&lt;figcaption>Ubah seperti diatas&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Jika sudah ujicoba konfigurasinya dengan mengirim packet, klik &lt;code>P&lt;/code> di keyboard lalu klik pada Router0 dan PC0.&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 428px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-ospf/image010.jpg" data-size="1368x766">&lt;img src="https://yasser-z.github.io/p/packet-tracer-ospf/image010.jpg"
+width="1368"
+height="766"
+loading="lazy"
+alt="Jika successful seperti diatas maka konfigurasinya sudah benar">
+&lt;/a>
+&lt;figcaption>Jika successful seperti diatas maka konfigurasinya sudah benar&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Jangan lupa klik delete setiap selesai mengujicoba agar mudah melihat hasil-nya.&lt;/p>
+&lt;p>Setelah itu konfigurasi juga router lainnya, berikut perbandingan konfigurasinya dengan Router0:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Jenis&lt;/th>
+&lt;th>Router0&lt;/th>
+&lt;th>Router1&lt;/th>
+&lt;th>Router2&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;a class="link" href="image006.jpg" >Hostname&lt;/a>&lt;/td>
+&lt;td>Router0&lt;/td>
+&lt;td>Router1&lt;/td>
+&lt;td>Router2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a class="link" href="image007.jpg" >GigabitEthernet0/0 - IPv4 Address&lt;/a>&lt;/td>
+&lt;td>1.1.1.1&lt;/td>
+&lt;td>1.1.1.2&lt;/td>
+&lt;td>2.2.2.2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a class="link" href="image008.jpg" >GigabitEthernet0/1 - IPv4 Address&lt;/a>&lt;/td>
+&lt;td>192.168.1.1&lt;/td>
+&lt;td>2.2.2.1&lt;/td>
+&lt;td>192.168.3.1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>GigabitEthernet0/2 - IPv4 Address&lt;/td>
+&lt;td>Tidak ada&lt;/td>
+&lt;td>192.168.2.1&lt;/td>
+&lt;td>Tidak ada&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a class="link" href="image009.jpg" >IPv4 Address PC&lt;/a>&lt;/td>
+&lt;td>192.168.1.2&lt;/td>
+&lt;td>192.168.2.2&lt;/td>
+&lt;td>192.168.3.2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;a class="link" href="image009.jpg" >Default Gateway PC&lt;/a>&lt;/td>
+&lt;td>192.168.1.1&lt;/td>
+&lt;td>192.168.2.1&lt;/td>
+&lt;td>192.168.3.1&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Lakukan ujicoba yang sama juga pada router lain.&lt;/p>
+&lt;h4 id="7-konfigurasi-routing-ospf-pada-tiap-router">7. Konfigurasi routing OSPF pada tiap router&lt;/h4>
+&lt;p>Saya merekomendasikan urutan mengkonfigurasinya Router0 &amp;gt; Router2 &amp;gt; Router1 karena nanti ada loading saat routernya melakukan routing. Jadi jika Router1 yang dikonfigurasikan terakhir, menunggu loadingnya di satu tempat saja.&lt;/p>
+&lt;p>Klik dua kali pada router yang ingin dikonfigurasi, pilih tab CLI, lalu.&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-ospf/image011.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-ospf/image011.jpg"
+width="557"
+height="543"
+loading="lazy"
+alt="1 Ketik &amp;lsquo;router ospf 1&amp;rsquo;">
+&lt;/a>
+&lt;figcaption>1 Ketik ‘router ospf 1’&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-ospf/image012.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-ospf/image012.jpg"
+width="557"
+height="543"
+loading="lazy"
+alt="2 Ketik &amp;lsquo;net {network} {wildcard mask} area 0&amp;rsquo;">
+&lt;/a>
+&lt;figcaption>2 Ketik ‘net {network} {wildcard mask} area 0’&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;blockquote>
+&lt;p>Network yang dimaksud pada tahap ke-2 adalah network yang terhubung dengan router.&lt;/p>
+&lt;ul>
+&lt;li>Router0: 192.168.1.0, 1.1.1.0&lt;/li>
+&lt;li>Router1: 192.168.2.0, 1.1.1.0, 2.2.2.0&lt;/li>
+&lt;li>Router2: 192.168.3.0, 2.2.2.0&lt;/li>
+&lt;/ul>
+&lt;p>Wildcard mask pada tahap ke-2 disesuaikan dengan IP range dari networknya,&lt;/p>
+&lt;ul>
+&lt;li>Jika x.x.x.x/30 maka isi dengan 0.0.0.3&lt;/li>
+&lt;li>Jika x.x.x.x/24 maka isi dengan 0.0.0.255&lt;/li>
+&lt;/ul>
+&lt;p>Lakukan tahap ke-2 sebanyak network yang terhubung pada routernya.&lt;/p>
+&lt;/blockquote>
+&lt;p>Jika sudah selesai masuk pada tab CLI Router1 lalu tunggu hingga ada output seperti dibawah.&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-ospf/image013.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-ospf/image013.jpg"
+width="557"
+height="543"
+loading="lazy"
+>
+&lt;/a>
+&lt;/figure>&lt;/p>
+&lt;h4 id="8-cek-konfigurasi-ospf">8. Cek konfigurasi OSPF&lt;/h4>
+&lt;p>Masih di Router1, ketik &lt;code>end&lt;/code> untuk keluar dari mode konfigurasi.&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-ospf/image014.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-ospf/image014.jpg"
+width="557"
+height="543"
+loading="lazy"
+alt="Ketik &amp;lsquo;show ip ospf neighbor&amp;rsquo;">
+&lt;/a>
+&lt;figcaption>Ketik ‘show ip ospf neighbor’&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 102; flex-basis: 246px">
+&lt;a href="https://yasser-z.github.io/p/packet-tracer-ospf/image015.jpg" data-size="557x543">&lt;img src="https://yasser-z.github.io/p/packet-tracer-ospf/image015.jpg"
+width="557"
+height="543"
+loading="lazy"
+alt="Ketik &amp;lsquo;show ip ospf database&amp;rsquo;">
+&lt;/a>
+&lt;figcaption>Ketik ‘show ip ospf database’&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Jika hasilnya seperti diatas maka konfigurasinya sudah benar.&lt;/p>
+&lt;h4 id="9-ujicoba-konfigurasi-ospf">9. Ujicoba konfigurasi OSPF&lt;/h4>
+&lt;p>Ujicobanya cukup kirim paket secara acak saja, jika tidak ada failed maka OSPF routing sudah bekerja dengan baik.&lt;/p>
+&lt;h4 id="thumbnail-image-sourcehttpswwwzerochannet633987">&lt;a class="link" href="https://www.zerochan.net/633987" target="_blank" rel="noopener"
+>Thumbnail image source&lt;/a>&lt;/h4></description></item><item><title>Konfigurasi DNS Server Bind9 Debian 8 VirtualBox</title><link>https://yasser-z.github.io/p/debian-8-dns-server-bind9/</link><pubDate>Fri, 19 Feb 2021 09:41:53 +0800</pubDate><guid>https://yasser-z.github.io/p/debian-8-dns-server-bind9/</guid><description>&lt;img src="https://yasser-z.github.io/p/debian-8-dns-server-bind9/thumbnail.jpg" alt="Featured image of post Konfigurasi DNS Server Bind9 Debian 8 VirtualBox" />
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/vfAJNNv4aYU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
@@ -308,7 +546,7 @@ loading="lazy"
 >
 &lt;/a>
 &lt;/figure>&lt;/p>
-&lt;h4 id="6-beri-keterangan-network-pada-tiap-kabel">6. Beri keterangan Network pada tiap kabel&lt;/h4>
+&lt;h4 id="6-beri-keterangan-network">6. Beri keterangan Network&lt;/h4>
 &lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
 &lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image011.jpg" data-size="1368x768">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image011.jpg"
 width="1368"
@@ -326,6 +564,7 @@ alt="Beri keterangan seperti ini">
 &lt;/a>
 &lt;figcaption>Beri keterangan seperti ini&lt;/figcaption>
 &lt;/figure>&lt;/p>
+&lt;p>Setelah itu klik &lt;code>Esc&lt;/code> pada keyboard.&lt;/p>
 &lt;h4 id="7-konfigurasi-router0">7. Konfigurasi Router0&lt;/h4>
 &lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
 &lt;a href="https://yasser-z.github.io/p/packet-tracer-eigrp/image013.jpg" data-size="1368x768">&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/image013.jpg"
