@@ -4,7 +4,7 @@ categories:
   - tutorial
 comment:
 date: 2021-02-18T16:28:14+08:00
-description: 
+description:
 hidden: false
 image: thumbnail.jpg
 keywords:
@@ -67,9 +67,11 @@ Kabel yang digunakan adalah kabel 'Copper Cross-Over', port yang dihubungkan ada
 
 ![](image010.jpg)
 
-#### 6. Beri keterangan Network pada tiap kabel
+#### 6. Beri keterangan Network
 
 ![Klik pada icon nota](image011.jpg) ![Beri keterangan seperti ini](image012.jpg)
+
+Setelah itu klik `Esc` pada keyboard.
 
 #### 7. Konfigurasi Router0
 
@@ -103,7 +105,7 @@ Kabel yang digunakan adalah kabel 'Copper Cross-Over', port yang dihubungkan ada
 
 #### 9. Konfigurasi router lainnya
 
-Konfigurasi router lainnya kurang lebih sama saja caranya, hanya berbeda pada data yang diubah. Berikut adalah perbandingannya: 
+Konfigurasi router lainnya kurang lebih sama saja caranya, hanya berbeda pada data yang diubah. Berikut adalah perbandingannya:
 
 | Jenis                                             | Router0     | Router1     | Router2     |
 | ------------------------------------------------- | ----------- | ----------- | ----------- |
@@ -142,13 +144,13 @@ Sebagai contoh saya mengkonfigurasi Router0.
 ![3 Ketik 'net {network}'](image032.jpg)
 
 > Network yang dimaksud pada tahap ke-3 adalah network yang terhubung dengan router.
-> 
+>
 > - Router0: 192.168.1.0, 1.1.1.0, 3.3.3.0
 > - Router1: 192.168.2.0, 1.1.1.0, 2.2.2.0
 > - Router2: 192.168.3.0, 2.2.2.0, 3.3.3.0
-> 
+>
 > Pada contoh diatas saya mengetik-nya 3 kali, `net 192.168.1.0` lalu `net 1.1.1.0` lalu yang terakhir `net 3.3.3.0`, lakukan hal yang sama pada 2 router lainnya.
-> 
+>
 > Untuk Router2 karena tadi dipakai untuk mengetes hubungan router, ketik `conf t` terlebih dahulu untuk masuk ke mode konfigurasi sebelum mengkonfigurasi routing EIGRP.
 
 #### 12. Cek daftar route
