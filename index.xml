@@ -1,6 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ahmad Yasser GP</title><link>https://yasser-z.github.io/</link><description>Recent content on Ahmad Yasser GP</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Thu, 25 Feb 2021 15:11:57 +0800</lastBuildDate><atom:link href="https://yasser-z.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Konfigurasi Routing OSPF di Cisco Packet Tracer</title><link>https://yasser-z.github.io/p/packet-tracer-ospf/</link><pubDate>Thu, 25 Feb 2021 15:11:57 +0800</pubDate><guid>https://yasser-z.github.io/p/packet-tracer-ospf/</guid><description>&lt;img src="https://yasser-z.github.io/p/packet-tracer-ospf/thumbnail.jpg" alt="Featured image of post Konfigurasi Routing OSPF di Cisco Packet Tracer" />
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/lNu1zIXOJlU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ahmad Yasser GP</title><link>https://yasser-z.github.io/</link><description>Recent content on Ahmad Yasser GP</description><generator>Hugo -- gohugo.io</generator><language>id-id</language><lastBuildDate>Thu, 25 Feb 2021 15:11:57 +0800</lastBuildDate><atom:link href="https://yasser-z.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Konfigurasi Routing OSPF di Cisco Packet Tracer</title><link>https://yasser-z.github.io/p/packet-tracer-ospf/</link><pubDate>Thu, 25 Feb 2021 15:11:57 +0800</pubDate><guid>https://yasser-z.github.io/p/packet-tracer-ospf/</guid><description>&lt;img src="https://yasser-z.github.io/p/packet-tracer-ospf/thumbnail.jpg" alt="Featured image of post Konfigurasi Routing OSPF di Cisco Packet Tracer" />&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube-nocookie.com/embed/lNu1zIXOJlU"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
 &lt;/div>
 &lt;h4 id="1-masukkan-3-buah-router">1. Masukkan 3 buah router&lt;/h4>
 &lt;p>&lt;figure style="flex-grow: 178; flex-basis: 428px">
@@ -236,9 +240,13 @@ alt="Ketik &amp;lsquo;show ip ospf database&amp;rsquo;">
 &lt;h4 id="9-ujicoba-konfigurasi-ospf">9. Ujicoba konfigurasi OSPF&lt;/h4>
 &lt;p>Ujicobanya cukup kirim paket secara acak saja, jika tidak ada failed maka OSPF routing sudah bekerja dengan baik.&lt;/p>
 &lt;h4 id="thumbnail-image-sourcehttpswwwzerochannet633987">&lt;a class="link" href="https://www.zerochan.net/633987" target="_blank" rel="noopener"
->Thumbnail image source&lt;/a>&lt;/h4></description></item><item><title>Konfigurasi DNS Server Bind9 Debian 8 VirtualBox</title><link>https://yasser-z.github.io/p/debian-8-dns-server-bind9/</link><pubDate>Fri, 19 Feb 2021 09:41:53 +0800</pubDate><guid>https://yasser-z.github.io/p/debian-8-dns-server-bind9/</guid><description>&lt;img src="https://yasser-z.github.io/p/debian-8-dns-server-bind9/thumbnail.jpg" alt="Featured image of post Konfigurasi DNS Server Bind9 Debian 8 VirtualBox" />
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/vfAJNNv4aYU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+>Thumbnail image source&lt;/a>&lt;/h4></description></item><item><title>Konfigurasi DNS Server Bind9 Debian 8 VirtualBox</title><link>https://yasser-z.github.io/p/debian-8-dns-server-bind9/</link><pubDate>Fri, 19 Feb 2021 09:41:53 +0800</pubDate><guid>https://yasser-z.github.io/p/debian-8-dns-server-bind9/</guid><description>&lt;img src="https://yasser-z.github.io/p/debian-8-dns-server-bind9/thumbnail.jpg" alt="Featured image of post Konfigurasi DNS Server Bind9 Debian 8 VirtualBox" />&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube-nocookie.com/embed/vfAJNNv4aYU"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
 &lt;/div>
 &lt;blockquote>
 &lt;p>Sebelum eksekusi, pastikan kalian sudah:&lt;/p>
@@ -425,9 +433,13 @@ alt="Jika hasilnya seperti diatas berarti DNS Server sudah bekerja dengan baik">
 &lt;/ul>
 &lt;/blockquote>
 &lt;h4 id="thumbnail-image-sourcehttpswwwzerochannet1533595">&lt;a class="link" href="https://www.zerochan.net/1533595" target="_blank" rel="noopener"
->Thumbnail image source&lt;/a>&lt;/h4></description></item><item><title>Konfigurasi Routing EIGRP di Cisco Packet Tracer</title><link>https://yasser-z.github.io/p/packet-tracer-eigrp/</link><pubDate>Thu, 18 Feb 2021 16:28:14 +0800</pubDate><guid>https://yasser-z.github.io/p/packet-tracer-eigrp/</guid><description>&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/thumbnail.jpg" alt="Featured image of post Konfigurasi Routing EIGRP di Cisco Packet Tracer" />
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/-vnrnOuYroI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+>Thumbnail image source&lt;/a>&lt;/h4></description></item><item><title>Konfigurasi Routing EIGRP di Cisco Packet Tracer</title><link>https://yasser-z.github.io/p/packet-tracer-eigrp/</link><pubDate>Thu, 18 Feb 2021 16:28:14 +0800</pubDate><guid>https://yasser-z.github.io/p/packet-tracer-eigrp/</guid><description>&lt;img src="https://yasser-z.github.io/p/packet-tracer-eigrp/thumbnail.jpg" alt="Featured image of post Konfigurasi Routing EIGRP di Cisco Packet Tracer" />&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube-nocookie.com/embed/-vnrnOuYroI"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
 &lt;/div>
 &lt;h4 id="1-masukkan-3-buah-router">1. Masukkan 3 buah router&lt;/h4>
 &lt;p>&lt;figure style="flex-grow: 178; flex-basis: 427px">
@@ -912,9 +924,13 @@ alt="Setelah itu ketik yes lalu klik Enter">
 &lt;p>Caranya cukup download script &lt;a class="link" href="https://drive.google.com/file/d/1fwVSikJJk3MxHdGB6khvdbABhW7Hyy_a/view?usp=sharing" target="_blank" rel="noopener"
 >ini&lt;/a> lalu jalankan saja script-nya jika ingin menghapus history Run.&lt;/p>
 &lt;h4 id="thumbnail-image-sourcehttpswwwzerochannet2535972">&lt;a class="link" href="https://www.zerochan.net/2535972" target="_blank" rel="noopener"
->Thumbnail image source&lt;/a>&lt;/h4></description></item><item><title>Install Debian 8 di Virtualbox</title><link>https://yasser-z.github.io/p/install-debian-8-virtualbox/</link><pubDate>Thu, 11 Feb 2021 23:05:29 +0800</pubDate><guid>https://yasser-z.github.io/p/install-debian-8-virtualbox/</guid><description>&lt;img src="https://yasser-z.github.io/p/install-debian-8-virtualbox/thumbnail.jpg" alt="Featured image of post Install Debian 8 di Virtualbox" />
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/1ed75leg4Gc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+>Thumbnail image source&lt;/a>&lt;/h4></description></item><item><title>Install Debian 8 di Virtualbox</title><link>https://yasser-z.github.io/p/install-debian-8-virtualbox/</link><pubDate>Thu, 11 Feb 2021 23:05:29 +0800</pubDate><guid>https://yasser-z.github.io/p/install-debian-8-virtualbox/</guid><description>&lt;img src="https://yasser-z.github.io/p/install-debian-8-virtualbox/thumbnail.jpg" alt="Featured image of post Install Debian 8 di Virtualbox" />&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube-nocookie.com/embed/1ed75leg4Gc"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
 &lt;/div>
 &lt;blockquote>
 &lt;p>Sebelum eksekusi, pastikan kalian sudah:&lt;/p>
@@ -1238,9 +1254,13 @@ alt="34 D">
 &lt;/ul>
 &lt;/blockquote>
 &lt;h4 id="thumbnail-image-sourcehttpswwwzerochannet1854531">&lt;a class="link" href="https://www.zerochan.net/1854531" target="_blank" rel="noopener"
->Thumbnail image source&lt;/a>&lt;/h4></description></item><item><title>Konfigurasi Mail Server Squirrelmail Dan Dovecot Debian 8 VirtualBox</title><link>https://yasser-z.github.io/p/debian-8-mail-server-squirrelmail-dan-dovecot/</link><pubDate>Thu, 11 Feb 2021 20:48:21 +0800</pubDate><guid>https://yasser-z.github.io/p/debian-8-mail-server-squirrelmail-dan-dovecot/</guid><description>&lt;img src="https://yasser-z.github.io/p/debian-8-mail-server-squirrelmail-dan-dovecot/thumbnail.jpg" alt="Featured image of post Konfigurasi Mail Server Squirrelmail Dan Dovecot Debian 8 VirtualBox" />
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/rTHNtSHwUxg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+>Thumbnail image source&lt;/a>&lt;/h4></description></item><item><title>Konfigurasi Mail Server Squirrelmail Dan Dovecot Debian 8 VirtualBox</title><link>https://yasser-z.github.io/p/debian-8-mail-server-squirrelmail-dan-dovecot/</link><pubDate>Thu, 11 Feb 2021 20:48:21 +0800</pubDate><guid>https://yasser-z.github.io/p/debian-8-mail-server-squirrelmail-dan-dovecot/</guid><description>&lt;img src="https://yasser-z.github.io/p/debian-8-mail-server-squirrelmail-dan-dovecot/thumbnail.jpg" alt="Featured image of post Konfigurasi Mail Server Squirrelmail Dan Dovecot Debian 8 VirtualBox" />&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube-nocookie.com/embed/rTHNtSHwUxg"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
 &lt;/div>
 &lt;blockquote>
 &lt;p>Sebelum eksekusi, pastikan kalian sudah:&lt;/p>
