@@ -61,7 +61,7 @@ alt="Klik Finish">
 &lt;/a>
 &lt;figcaption>Klik Finish&lt;/figcaption>
 &lt;/figure>&lt;/p>
-&lt;p>Tunggu sebentar, browser akan terbuka dan secara otomatis memasuki halaman web untuk konfigurasi Axigen. Jika tidak terbuka juga, silahkan buka browser secara manual dan masukan URL https://localhost:9443.&lt;/p>
+&lt;p>Tunggu sebentar, browser akan terbuka sendiri dan secara otomatis memasuki halaman web untuk konfigurasi Axigen. Jika tidak terbuka juga, silahkan buka browser secara manual dan masukan URL https://localhost:9443.&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
 &lt;a href="https://yasser-z.github.io/p/axigen-mail-server-windows-10/image007.jpg" data-size="1364x768">&lt;img src="https://yasser-z.github.io/p/axigen-mail-server-windows-10/image007.jpg"
 width="1364"
