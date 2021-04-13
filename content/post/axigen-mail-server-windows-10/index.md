@@ -36,7 +36,7 @@ Setelah ini akan ada dialog Run as administrator, pilih Yes. Silahkan tunggu beb
 
 ![Klik Finish](image006.jpg)
 
-Tunggu sebentar, browser akan terbuka dan secara otomatis memasuki halaman web untuk konfigurasi Axigen. Jika tidak terbuka juga, silahkan buka browser secara manual dan masukan URL https://localhost:9443.
+Tunggu sebentar, browser akan terbuka sendiri dan secara otomatis memasuki halaman web untuk konfigurasi Axigen. Jika tidak terbuka juga, silahkan buka browser secara manual dan masukan URL https://localhost:9443.
 
 ![Error](image007.jpg)
 
