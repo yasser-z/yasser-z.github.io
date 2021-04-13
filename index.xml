@@ -6,7 +6,7 @@
 >ISP&lt;/a> yang masing-masing memiliki fitur yang berbeda-beda, bisa dicek pada link yang berada pada versinya. Karena ini hanya tutorial, jadi saya hanya &amp;ldquo;mencoba&amp;rdquo; agar tidak perlu mengeluarkan uang.&lt;/p>
 &lt;p>Pertama-tama yang harus dilakukan adalah mendownload executable untuk menginstall Axigen (Installer-nya). Silahkan download &lt;a class="link" href="https://www.axigen.com/mail-server/download/" target="_blank" rel="noopener"
 >disini&lt;/a>, pilih sesuai dengan sistem operasi atau peralatan virtual yang akan digunakan untuk menginstall Axigen (Disini saya memilih Windows). Jika kalian tidak memilih versi Windows maka kalian harus bisa berimprovisasi dengan tahap-tahap selanjutnya karena saya hanya mencontohkan untuk versi Windows, jika tidak bisa silahkan cari tutorial lain saja.&lt;/p>
-&lt;p>Kalau sudah selesai mendownload, selanjutnya klik kanan pada executable-nya lalu klik &lt;code>Install&lt;/code>, pastikan kalian menggunakan akun yang memiliki akses administrator (Run as administrator)&lt;/p>
+&lt;p>Kalau sudah selesai mendownload, selanjutnya klik kanan pada executable-nya lalu klik &lt;code>Install&lt;/code>, pastikan kalian menggunakan akun yang memiliki akses administrator (Run as administrator).&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
 &lt;a href="https://yasser-z.github.io/p/axigen-mail-server-windows-10/image001.jpg" data-size="1364x768">&lt;img src="https://yasser-z.github.io/p/axigen-mail-server-windows-10/image001.jpg"
 width="1364"
@@ -71,7 +71,7 @@ alt="Error">
 &lt;/a>
 &lt;figcaption>Error&lt;/figcaption>
 &lt;/figure>&lt;/p>
-&lt;p>Kalau ada error seperti diatas, klik pada &lt;code>Advanced&lt;/code> lalu klik lagi di &lt;code>Proceed to localhost (unsafe)&lt;/code> jika kalian menggunakan browser berbasis chromium, jika tidak silahkan berimprovisasi.&lt;/p>
+&lt;p>Kalau ada error seperti diatas dan kalian menggunakan browser berbasis chromium, klik pada &lt;code>Advanced&lt;/code> lalu klik lagi &lt;code>Proceed to localhost (unsafe)&lt;/code>, jika tidak silahkan berimprovisasi.&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
 &lt;a href="https://yasser-z.github.io/p/axigen-mail-server-windows-10/image008.jpg" data-size="1364x768">&lt;img src="https://yasser-z.github.io/p/axigen-mail-server-windows-10/image008.jpg"
 width="1364"
@@ -91,7 +91,7 @@ alt="Pilih lisensi">
 &lt;/a>
 &lt;figcaption>Pilih lisensi&lt;/figcaption>
 &lt;/figure>&lt;/p>
-&lt;p>Konfigurasi yang ini saya &amp;ldquo;skip&amp;rdquo;, &lt;del>pakai lisensi gratis bisa sih tapi saya males&lt;/del>. Perlu diingat kalau konfigurasi ini &amp;ldquo;diskip&amp;rdquo; maka instalasi Axigen akan diblock (tidak bisa dipakai) dalam 3 hari.&lt;/p>
+&lt;p>Konfigurasi yang ini saya &amp;ldquo;skip&amp;rdquo;, &lt;del>pakai lisensi gratis bisa sih tapi saya males&lt;/del>. Perlu diingat bahwa jika konfigurasi ini &amp;ldquo;diskip&amp;rdquo; maka instalasi Axigen kalian akan diblock (tidak bisa dipakai) dalam kurun waktu 3 hari.&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
 &lt;a href="https://yasser-z.github.io/p/axigen-mail-server-windows-10/image010.jpg" data-size="1364x768">&lt;img src="https://yasser-z.github.io/p/axigen-mail-server-windows-10/image010.jpg"
 width="1364"
@@ -111,11 +111,11 @@ alt="Konfigurasi domain utama">
 &lt;/a>
 &lt;figcaption>Konfigurasi domain utama&lt;/figcaption>
 &lt;/figure>&lt;/p>
-&lt;p>Karena saya &amp;ldquo;kebetulan&amp;rdquo; memiliki Debian 8 yang berisi DNS Server jadi disini saya isi sesuai dengan domain yang sudah saya buat, jika tidak punya silahkan buat terlebih dahulu.&lt;/p>
-&lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
-&lt;a href="https://yasser-z.github.io/p/axigen-mail-server-windows-10/image012.jpg" data-size="1364x768">&lt;img src="https://yasser-z.github.io/p/axigen-mail-server-windows-10/image012.jpg"
-width="1364"
-height="768"
+&lt;p>Karena saya hanya &amp;ldquo;mencoba&amp;rdquo;, disini saya menggunakan domain yang sebelumnya sudah saya buat pada Debian 8 DNS Server yang berada di VirtualBox.&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 133; flex-basis: 320px">
+&lt;a href="https://yasser-z.github.io/p/axigen-mail-server-windows-10/image012.jpg" data-size="800x600">&lt;img src="https://yasser-z.github.io/p/axigen-mail-server-windows-10/image012.jpg"
+width="800"
+height="600"
 loading="lazy"
 alt="Debian 8 DNS Server">
 &lt;/a>
@@ -139,7 +139,7 @@ alt="Finish">
 &lt;/a>
 &lt;figcaption>Finish&lt;/figcaption>
 &lt;/figure>&lt;/p>
-&lt;p>Klik finish. Lalu pada kolom URL di browser, hapus sebagian URL sisakan https://localhost:9443 atau bisa juga https://nama-domain:9443.&lt;/p>
+&lt;p>Klik finish. Lalu pada kolom URL di browser, hapus sebagian URL sisakan https://localhost:9443, bisa juga kalau menggunakan https://nama-domain:9443.&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
 &lt;a href="https://yasser-z.github.io/p/axigen-mail-server-windows-10/image015.jpg" data-size="1364x768">&lt;img src="https://yasser-z.github.io/p/axigen-mail-server-windows-10/image015.jpg"
 width="1364"
@@ -176,7 +176,8 @@ loading="lazy"
 >
 &lt;/a>
 &lt;/figure>&lt;/p>
-&lt;p>Isi seperti diatas, sesuaikan dengan akun yang ingin kalian buat. Klik &lt;code>Quick Add&lt;/code> untuk menambah akun. Lalu tambah akun lagi agar bisa melakukan ujicoba, klik &lt;code>Add Account&lt;/code> lagi.&lt;/p>
+&lt;p>Isi seperti diatas, sesuaikan dengan akun yang ingin kalian buat. Klik &lt;code>Quick Add&lt;/code> untuk menambah akun.&lt;/p>
+&lt;p>Selanjutnya tambah akun lagi agar bisa melakukan ujicoba, klik &lt;code>Add Account&lt;/code>.&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
 &lt;a href="https://yasser-z.github.io/p/axigen-mail-server-windows-10/image019.jpg" data-size="1364x768">&lt;img src="https://yasser-z.github.io/p/axigen-mail-server-windows-10/image019.jpg"
 width="1364"
@@ -226,7 +227,7 @@ alt="Kirim email">
 &lt;/a>
 &lt;figcaption>Kirim email&lt;/figcaption>
 &lt;/figure>&lt;/p>
-&lt;p>Klik tombol ini untuk mengirim email, bisa juga dengan cara klik &lt;!-- raw HTML omitted -->CTRL + ENTER&lt;!-- raw HTML omitted -->.&lt;/p>
+&lt;p>Klik tombol seperti diatas untuk mengirim email, bisa juga dengan cara klik &lt;!-- raw HTML omitted -->CTRL + ENTER&lt;!-- raw HTML omitted --> pada keyboard.&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
 &lt;a href="https://yasser-z.github.io/p/axigen-mail-server-windows-10/image024.jpg" data-size="1364x768">&lt;img src="https://yasser-z.github.io/p/axigen-mail-server-windows-10/image024.jpg"
 width="1364"
@@ -236,7 +237,7 @@ alt="Cek email terkirim">
 &lt;/a>
 &lt;figcaption>Cek email terkirim&lt;/figcaption>
 &lt;/figure>&lt;/p>
-&lt;p>Klik pada &lt;code>Sent&lt;/code>, seharusnya muncul email yang dikirim tadi. Kalau tidak muncul coba klik pada &lt;code>Check Email&lt;/code> yang berada dibawah &lt;code>New&lt;/code> dipojok kiri atas, kalau tidak muncul juga berarti ada kesalahan pada konfigurasi yang dilakukan sebelumnya.&lt;/p>
+&lt;p>Klik pada &lt;code>Sent&lt;/code>, seharusnya muncul email yang dikirim tadi. Kalau tidak muncul coba klik pada &lt;code>Check Email&lt;/code> yang berada dibawah &lt;code>New&lt;/code>, kalau tidak muncul juga berarti ada kesalahan pada konfigurasi yang dilakukan sebelumnya.&lt;/p>
 &lt;p>Selanjutnya cek email yang diterima oleh akun yang lain.&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
 &lt;a href="https://yasser-z.github.io/p/axigen-mail-server-windows-10/image025.jpg" data-size="1364x768">&lt;img src="https://yasser-z.github.io/p/axigen-mail-server-windows-10/image025.jpg"
@@ -286,7 +287,7 @@ alt="Balasan">
 &lt;/a>
 &lt;figcaption>Balasan&lt;/figcaption>
 &lt;/figure>&lt;/p>
-&lt;p>Lakukan sama seperti tadi, tapi biarkan kolom &lt;code>to:&lt;/code> dan kolom ke-3 &lt;code>subject&lt;/code> lalu kirim.&lt;/p>
+&lt;p>Lakukan sama seperti tadi, tapi biarkan kolom &lt;code>to:&lt;/code> dan kolom ke-3 &lt;code>subject&lt;/code>.&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
 &lt;a href="https://yasser-z.github.io/p/axigen-mail-server-windows-10/image030.jpg" data-size="1364x768">&lt;img src="https://yasser-z.github.io/p/axigen-mail-server-windows-10/image030.jpg"
 width="1364"
@@ -326,7 +327,7 @@ alt="Email diterima">
 &lt;/a>
 &lt;figcaption>Email diterima&lt;/figcaption>
 &lt;/figure>&lt;/p>
-&lt;p>Jika email diterima maka bisa dikatakan instalasi Axigen Mail Server itu sukses.&lt;/p></description></item><item><title>Konfigurasi Routing OSPF di Cisco Packet Tracer</title><link>https://yasser-z.github.io/p/packet-tracer-ospf/</link><pubDate>Thu, 25 Feb 2021 15:11:57 +0800</pubDate><guid>https://yasser-z.github.io/p/packet-tracer-ospf/</guid><description>&lt;img src="https://yasser-z.github.io/p/packet-tracer-ospf/thumbnail.jpg" alt="Featured image of post Konfigurasi Routing OSPF di Cisco Packet Tracer" />&lt;div class="video-wrapper">
+&lt;p>Jika email diterima maka bisa dikatakan instalasi Axigen Mail Server sudah sukses.&lt;/p></description></item><item><title>Konfigurasi Routing OSPF di Cisco Packet Tracer</title><link>https://yasser-z.github.io/p/packet-tracer-ospf/</link><pubDate>Thu, 25 Feb 2021 15:11:57 +0800</pubDate><guid>https://yasser-z.github.io/p/packet-tracer-ospf/</guid><description>&lt;img src="https://yasser-z.github.io/p/packet-tracer-ospf/thumbnail.jpg" alt="Featured image of post Konfigurasi Routing OSPF di Cisco Packet Tracer" />&lt;div class="video-wrapper">
 &lt;iframe loading="lazy"
 src="https://www.youtube-nocookie.com/embed/lNu1zIXOJlU"
 allowfullscreen
