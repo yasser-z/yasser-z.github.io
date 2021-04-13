@@ -147,3 +147,5 @@ Login dengan menggunakan akun yang pertama.
 ![Email diterima](image033.jpg)
 
 Jika email diterima maka bisa dikatakan instalasi Axigen Mail Server sudah sukses.
+
+#### [Thumbnail image source](https://www.zerochan.net/2137480)
